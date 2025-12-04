@@ -1,0 +1,31 @@
+[build]
+  # The directory to publish
+  publish = "website"
+  
+  # The build command
+  command = """
+    # Download and install Typst
+    echo "Downloading Typst..."
+    curl -L https://github.com/typst/typst/releases/download/v0.14.1/typst-x86_64-unknown-linux-musl.tar.xz -o typst.tar.xz
+    
+    echo "Extracting Typst..."
+    tar -xf typst.tar.xz
+    
+    echo "Making Typst executable..."
+    chmod +x typst-x86_64-unknown-linux-musl/typst
+    
+    echo "Adding Typst to PATH..."
+    export PATH="$PWD/typst-x86_64-unknown-linux-musl:$PATH"
+    
+    echo "Verifying Typst installation..."
+    typst --version
+    
+    echo "Running build script..."
+    bash build.sh
+  """
+
+# Redirect rules (optional - uncomment if needed)
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200
