@@ -51,7 +51,7 @@ html {
     height: 100%;
     background-image: url('cover.webp');
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     z-index: 0;
 }
 
