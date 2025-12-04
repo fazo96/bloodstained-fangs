@@ -1,22 +1,31 @@
-== Setting Introduction
+#import "../template.typ": keep_together
 
-You have heard of them: Vampires, Lycantropes, Witches... they are not folklore. They exist, they always have. They are everywhere, in line at the 24/7 corner store in the middle of the night, driving your trucks, maintaining your computer networks.
+#pagebreak()
+#keep_together[
+  == Setting Introduction
 
-The underworld is made up of various organizations that each kind of creature of the night is a part of. These organizations are often in conflict due to disagreements on the treatment of "mortals" or due to disgust and hate between each other.
+  You've heard the stories: Vampires. Lycanthropes. Witches. They're not folklore—they're real. They've always been real. They're everywhere. Standing behind you in line at the 24/7 corner store at 3 AM. Driving the trucks that deliver your food. Maintaining the networks that run your life.
 
-=== Playable Themes
+  The underworld is a web of rival organizations, each claiming dominion over their own kind. These factions wage endless shadow wars—over the treatment of mortals, over ancient grudges, over territory soaked in blood. Hatred runs deep between the breeds. Trust is a luxury no one can afford.
+]
 
-- *Personal struggle in adapting to a new reality* as your body, mind and physiology are forever changed
-- *Conflict between different groups for control over the city* as you get thrown into the politics of warring factions across different night creatures all competing for control on territory and striving to keep their existence a secret from those who hunt them
-- *Being torn between the human life and the new unlife*, struggling to keep old relationships working, facing your own publicly declared death, and trying to protect your loved ones from what you've become
-- *Rebelling against the status quo* of the organizations controlling life in the underworld
-- *Research into the mysteries* of the nature of Vampires, Lycantropes, and others as you try to find a cure for your condition.
-- *Protecting the people of the city* from the monsters of the night, or becoming one of them and face persecution by those protecting mortals
+#keep_together[
+  === Playable Themes
 
-=== Timeline
+  - *Personal struggle in adapting to a new reality* as your body, mind, and physiology are twisted beyond recognition
+  - *Conflict between different groups for control over the city* as you're dragged into the brutal politics of warring factions—night creatures vying for territory, power, and survival while keeping their existence hidden from those who hunt them
+  - *Being torn between the human life and the new unlife*, struggling to maintain old relationships, grappling with your own publicly declared death, and desperately trying to shield your loved ones from the monster you've become
+  - *Rebelling against the status quo* of the ancient organizations that control every aspect of life in the underworld
+  - *Research into the mysteries* of Vampires, Lycanthropes, and other creatures as you search desperately for a cure to your condition
+  - *Protecting the people of the city* from the predators of the night, or becoming one of them and facing persecution from those who hunt monsters
+]
 
-It is the year 2025. Smartphones with AI access are common, and photographic evidence of the supernatural matters nothing in a world with generative AI. After a brief decade scared about cellphones with cameras, creatures of the night feel more confident than ever in expanding their activities.
+#keep_together[
+  === Timeline
 
-Rampant disinformation and fake news make any effort to expose them much harder than it has to be, and the growing divide between mortals that venture into questionable city districts to have late night fun and people living their life safely during the day means that preys are more isolated than ever.
+  It is the year 2025. Smartphones with AI assistants are ubiquitous, and photographic evidence means nothing in a world drowning in deepfakes and synthetic media. After a brief decade of fear over cellphone cameras, the creatures of the night have grown bold again—expanding their hunting grounds with impunity.
 
-An police department overworked and overloaded with missing person cases, homicide, assault reports cannot deal with any of them effectively and the criminals are going unpunished while the monster grow more confident every night.
+  Rampant disinformation and weaponized fake news make any attempt to expose them futile. The growing chasm between mortals who prowl questionable city districts for late-night thrills and those who cling to daylight safety means the prey are more isolated than ever. More vulnerable. Easier to pick off.
+
+  A police department drowning in missing persons cases, homicides, and assault reports can barely keep the lights on, let alone solve crimes. The guilty walk free. The predators grow bolder every night. And the bodies keep piling up.
+]

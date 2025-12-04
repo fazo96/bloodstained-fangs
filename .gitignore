@@ -1,1 +1,7 @@
 *.pdf
+website/*.png
+website/*.webp
+website/*.OTF
+
+# Local Netlify folder
+.netlify

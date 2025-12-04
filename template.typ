@@ -17,26 +17,46 @@
 // ============================================================================
 
 // Custom table styling for RPG tables
+// Automatically detects grid tables (more than 2 columns) and disables hyphenation
 #let rpg_table(..args, body) = {
+  // Extract the columns argument to detect if it's a grid
+  let is_grid = false
+  if "columns" in args.named() {
+    let cols = args.named().columns
+    // Check if columns is a number > 2, or an array with length > 2
+    is_grid = (type(cols) == int and cols > 2) or (type(cols) == array and cols.len() > 2)
+  }
+
   show table.cell: it => {
     if it.y == 0 {
-      set text(fill: white, weight: "bold", size: 10pt)
+      set text(fill: white, weight: "bold", size: 9pt)
       it
     } else {
-      it
+      if is_grid {
+        set text(hyphenate: false, size: 9pt)
+        set par(justify: false)
+        it
+      } else {
+        it
+      }
     }
   }
 
   table(
     stroke: none,
     fill: (col, row) => {
-      if row == 0 { blood-red } else if calc.rem(row, 2) == 0 { rgb("#f5f5f5") } else { white }
+      if row == 0 { blood-red } else if calc.rem(row, 2) == 0 { moon-silver.lighten(50%) } else { white }
     },
     inset: 8pt,
     align: left,
     ..args,
     body
   )
+}
+
+// Helper to keep content together (e.g. heading + table)
+#let keep_together(body) = {
+  block(breakable: false, width: 100%, body)
 }
 
 // Dice notation formatter
@@ -115,7 +135,7 @@
 
   // Page setup
   set page(
-    paper: "us-letter",
+    paper: "us-trade",
     margin: (
       top: 1in,
       bottom: 1in,
@@ -146,9 +166,10 @@
 
   // Text settings
   set text(
-    font: "Linux Libertine",
+    font: "Montserrat",
     size: 11pt,
     lang: "en",
+    weight: "regular",
   )
 
   // Paragraph settings
@@ -166,20 +187,19 @@
   }
 
   show heading.where(level: 2): it => {
-    pagebreak()
-    v(18pt)
+    v(8pt)
     subsection-header(it.body)
-    v(10pt)
+    v(8pt)
   }
 
   show heading.where(level: 3): it => {
-    v(12pt)
+    v(8pt)
     text(size: 14pt, weight: "bold", fill: shadow-gray)[#it.body]
     v(8pt)
   }
 
   show heading.where(level: 4): it => {
-    v(10pt)
+    v(8pt)
     text(size: 12pt, weight: "bold", style: "italic")[#it.body]
     v(6pt)
   }
@@ -217,10 +237,16 @@
       dy: -1in,
       [
         #align(center)[
-          #text(size: 48pt, weight: "bold", fill: blood-red)[
-            BLOODSTAINED FANGS
+          #place(center, dx: 2pt, dy: 2pt)[
+            #text(
+              fill: black,
+              size: 48pt,
+              weight: "bold",
+              font: "Takota",
+            )[BLOODSTAINED FANGS]
           ]
-          #v(12pt)
+          #text(size: 48pt, weight: "bold", fill: blood-red, font: "Takota")[BLOODSTAINED FANGS]
+          #v(6pt)
           #text(size: 20pt, fill: parchment)[
             #subtitle
           ]
@@ -231,7 +257,7 @@
               stalking the night in the urban shadows
             ]
           ]
-          #v(24pt)
+          #v(36pt)
           #line(length: 30%, stroke: 2pt + blood-red)
           #v(24pt)
           #text(size: 12pt, fill: white.darken(40%))[

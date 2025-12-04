@@ -1,173 +1,112 @@
-== Factions & Organizations
+#import "../template.typ": keep_together
 
-The city is packed with underworld organizations pulling each other's strings... and stepping on each other's toes. Will you lead an organization or one of its branches, or be caught in the crossfire of one of the shadow wars?
+#pagebreak()
+#keep_together[
+  == Factions & Organizations
 
-=== FSB
-- *Concept*: Fringe Science Bureau
-- *Skills*: Investigation, Guns
-- *Frailty*: Bureaucracy, Funding
-- *Gear*: Federal Badge, Silenced Pistol
-- *Goal*: Expose Underworld
-- *Motive*: The World Must Know
-- *Nemesis*: The Order
+  The City's underworld is a web of competing organizations—each pulling strings, stepping on throats, and settling scores in the dark. Will you lead one of these factions, or just try to survive the crossfire?
+]
 
-The Fringe Science Bureau is a federal organization made of offices and labs studying weird substances and unexplained phenomena. But few know there is an Investigations division employing disillusioned, hardboiled detectives tasked with chasing and retrieving supernatural creatures.
+#keep_together[
+  === FSB
+  - *Concept*: Fringe Science Bureau
+  - *Skills*: Investigation, Guns
+  - *Frailty*: Bureaucracy, Funding
+  - *Gear*: Federal Badge, Silenced Pistol
+  - *Goal*: Expose Underworld
+  - *Motive*: The World Must Know
+  - *Nemesis*: The Order
+]
 
-These guys know what's up: they have dipped their toes into the underworld and have seen things no other mortal would believe. They are tough and determined to take down the monsters, but more than anything they want to prove they are right.
+On paper, the Fringe Science Bureau is a federal agency studying anomalies and unexplained phenomena—weird chemicals, strange readings, fringe cases. What most don't know is that buried within the bureaucracy is an Investigations division staffed by disillusioned, hard-bitten detectives who hunt supernatural creatures.
 
-=== The Order
-- *Concept*: Ancient Secret Society
-- *Skills*: Ancient Lore, Subterfuge
-- *Frailty*: Few Members
-- *Gear*: Caine's Stake, All-knowing Orb
-- *Goal*: Preserve World Order
-- *Motive*: Habit
-- *Nemesis*: Knights of the Cross
+These agents know the truth. They've waded into the underworld and seen things that would shatter a normal person's mind. They're tough, relentless, and hungry to bring down the monsters. But more than anything, they want to prove they're not crazy. They want the world to see what they've seen.
 
-The Order has few members and no one knows where their headquarters is. They are antedeluvian Blood Vampires and other creatures that do not even have a name.
-They remember Salem, the crusades, and older events not in any mortal history book. Some say one of them is Caine himself, the first Blood Vampire from which all others descend.
+#pagebreak()
+#keep_together[
+  === The Order
+  - *Concept*: Ancient Secret Society
+  - *Skills*: Ancient Lore, Subterfuge
+  - *Frailty*: Few Members
+  - *Gear*: Caine's Stake, All-knowing Orb
+  - *Goal*: Preserve World Order
+  - *Motive*: Habit
+  - *Nemesis*: Knights of the Cross
+]
 
-Their roots are in prehistory and they do not get involved into petty affairs of the city, except when the established world order is at stake and widespread mortal knowledge of the supernatural is at risk.
+The Order has few members. No one knows where they meet. They are antediluvian Blood Vampires and things that predate names.
+They remember Salem. The Crusades. Events that never made it into mortal history books. Some whisper that one of them is Caine himself—the first Blood Vampire, progenitor of all the rest.
 
-=== The Red Hood
-- *Concept*: Secret Hacker Group
-- *Skills*: Espionage, Hacking
-- *Frailty*: Vampirism (Blood Vampire)
-- *Gear*: Automated Security System, Surveillance Network
-- *Goal*: Secrecy, Financial Independence
-- *Motive*: Fear
-- *Nemesis*: FSB
+Their roots stretch back to prehistory. They don't meddle in the City's petty squabbles unless the established order is threatened—unless mortals are on the verge of learning the truth.
 
-No one has heard of The Red Hood. One of the most powerful but well hidden hacking organizations in the world. Few know its home is in the city, hidden in one of the skyscrapers. Thousands of tech startups work there, but some of them are nests of Blood Vampires living their lives in the internet. They never go out, feeding on blood bags requisitioned through corrupt hospital staff and their own sketchy blood banks.
+#pagebreak()
+#keep_together[
+  === The Red Hood
+  - *Concept*: Secret Hacker Group
+  - *Skills*: Espionage, Hacking
+  - *Frailty*: Vampirism (Blood Vampire)
+  - *Gear*: Automated Security System, Surveillance Network
+  - *Goal*: Secrecy, Financial Independence
+  - *Motive*: Fear
+  - *Nemesis*: FSB
+]
 
-They have built a scamming empire online that controls the vast majority of scam operations. With the expertise and funds, they run a surveillance network leveraging hacked security cameras and phones to collect information about most dealings of the regular world and the underworld, especially monitoring for risky situations that could compromise their safety and the details of the life of the people they depend on for their business.
+No one's heard of The Red Hood. That's the point. One of the world's most powerful hacking collectives, hidden in plain sight. Their base is somewhere in the City, buried inside a downtown skyscraper crawling with tech startups. Some of those startups are fronts. Behind the server racks and standing desks are nests of Blood Vampires who never see the sun—who live their entire unlives online. They feed on blood bags stolen through corrupt hospital staff and their own black-market blood banks.
 
-Their information can be priceless, but escaping their surveillance is almost impossible. Getting a hold of them: even harder.
+They've built a scamming empire that controls the majority of online fraud worldwide. With that expertise and capital, they run a surveillance network that taps into hacked cameras and phones across the City. They monitor everything—tracking threats to their operations and keeping tabs on the people they depend on to stay fed and hidden.
 
-=== The Knights of the Cross
-- *Concept*: Religious Sect
-- *Skills*: Ancient Lore, Faith Magic
-- *Frailty*: Indoctrination
-- *Gear*: Excalibur, The Godstaff
-- *Goal*: Destroy Night Monsters
-- *Motive*: Faith
-- *Nemesis*: Night Monsters
+With near-unlimited funds, The Red Hood employs desperate mercenaries for untraceable wet work, ensuring secrecy and severe consequences for failure. Their intel is priceless. Escaping their surveillance? Nearly impossible. Making contact with them? Even harder.
 
-Hundreds of years ago, the Knights of the Cross held successful persecutions killing thousands of night creatures. These days, the knights are few, but the underworld is growing. Vampirism festers in the underbelly of the cities, technology aiding them in hiding instead of exposing them. The Vatican funds this group and provides them with resources to fight the supernatural enemies of the Church.
+#pagebreak()
+#keep_together[
+  === The Knights of the Cross
+  - *Concept*: Religious Sect
+  - *Skills*: Ancient Lore, Faith Magic
+  - *Frailty*: Indoctrination
+  - *Gear*: Excalibur, The Godstaff
+  - *Goal*: Destroy Night Monsters
+  - *Motive*: Faith
+  - *Nemesis*: Night Monsters
+]
 
-Fake news and AI generated images causes mortals to no longer believe in photographic evidence. These are all ideal conditions for the proliferation of monsters, and the Knights are spread thin.
+Centuries ago, the Knights of the Cross waged holy war on the night, slaughtering thousands of supernatural creatures in purges that burned across Europe. Now, the Knights are few. The underworld is growing. Vampirism festers in the guts of every major city, and technology shields the monsters instead of exposing them. The Vatican still funds the order, funneling resources to fight the Church's ancient enemies.
 
-The Knights also maintain a loose communication networks coordinating independent monster hunters of various kinds, mainly Vampire Hunters. These people do not believe in the Almighty but they share the hate for the monsters of the night and sometimes benefit from the resources of the Knights of the Cross.
+Deepfakes and AI-generated images have made photographic evidence worthless. Mortals don't believe what they see anymore. It's the perfect breeding ground for monsters, and the Knights are stretched dangerously thin.
 
-=== The Hand
-- *Concept*: United Mob
-- *Skills*: Intimidation, Extortion
-- *Frailty*: Hotheads
-- *Gear*: Machine guns, Blood Money
-- *Goal*: Control Businesses
-- *Motive*: Greed
-- *Nemesis*: Night Monsters
+The Knights maintain a loose network of independent hunters—mostly vampire killers who don't share the faith but share the hatred. They don't kneel to God, but they'll take the Knights' weapons and intel when it suits them.
 
-If you are a dweller of the night life, it is hard not to run into The Hand. The Hand offers: strip clubs, drug-ridden dance floors, spiked cocktails, stacks of cash on underground poker tables, and worse things. The Hand also takes: mainly your money, sometimes your life. It does not take supernatural powers to become a monster that prowls the night.
+#pagebreak()
+#keep_together[
+  === The Hand
+  - *Concept*: United Mob
+  - *Skills*: Intimidation, Extortion
+  - *Frailty*: Hotheads
+  - *Gear*: Machine guns, Blood Money
+  - *Goal*: Control Businesses
+  - *Motive*: Greed
+  - *Nemesis*: District Attorney
+]
 
-Some of the bosses are aware of the creatures of the night, but others do not believe it. Anyway, none of them will tolerate disruption to their business.
+If you run in the City's nightlife, you'll cross paths with The Hand. They own the strip clubs, the pill-soaked dance floors, the spiked drinks, the high-stakes poker games in basement rooms. They offer vice. They take your money. Sometimes they take your life. You don't need fangs or claws to be a predator.
 
-=== Wizardry Union
-- *Concept*: Wizardry Organization
-- *Skills*: Magic, Ancient Lore
-- *Frailty*: Inertia
-- *Gear*: Magical Artifacts, Magic Sensing Talismans
-- *Goal*: Develop Magic
-- *Motive*: Power
-- *Nemesis*: Rebel Mages
+Some of the bosses know about the supernatural. Others think it's bullshit. Either way, none of them tolerate anything that disrupts business.
 
-Kids sometimes develop magical power spontaneously. When that happens, a mage nearby will sense it and offer the kid a new life in the magical world. Some grow to become centuries old archmages with earth shattering power. Others never develop their power which fizzle out.
+#pagebreak()
+#keep_together[
+  === Wizardry Union
+  - *Concept*: Wizardry Organization
+  - *Skills*: Magic, Ancient Lore
+  - *Frailty*: Inertia
+  - *Gear*: Magical Artifacts, Magic Sensing Talismans
+  - *Goal*: Develop Magic
+  - *Motive*: Power
+  - *Nemesis*: Rebel Mages
+]
 
-Some will have so much raw power that they are unable to control it, and turn dangerous and crazy. Here the Union shows their dark side in disposing of the danger. No risk is tolerated in the Union, and their law can sometimes be old fashioned: even by middle ages standard.
+Sometimes a kid's magic awakens spontaneously. When it does, a nearby mage will sense it and offer them a new life in the hidden world. Some of these children grow into centuries-old archmages wielding apocalyptic power. Others never develop their gift. It just fades.
 
-The Union gets involved in the regular affairs of the underworld in order to secure powerful artifacts, develop and study more powerful magic, and occasionally put a stop to unhinged activities of dangerous monsters. They have a widespread social network encompassing nomadic vampire hunters and harmless magical creatures of various kinds.
+Some awaken with so much raw power they can't control it. They become dangerous. Unstable. That's when the Union shows its teeth. They eliminate the threat. The Union tolerates no risk, and their laws are draconian—medieval, even by medieval standards.
 
-Some wizards and witches reject the Union, its bureaucracy, control and old-fashioned laws. These rebels typically live on their own as nomads, on the run from the Union, or well hidden. Sometimes they organize into small groups but the bigger ones get crushed by the mighty power of the Union.
+The Union involves itself in underworld affairs to secure powerful artifacts, advance magical research, and occasionally put down rogue monsters who've gone too far. They maintain a sprawling network of contacts: nomadic hunters, minor magical creatures, informants in every shadow.
 
-== Creatures & Foes
-
-=== Soul Vampire
-- *Concept*: Flamboyant Party Animal
-- *Skills*: Superhuman Speed, Seduction
-- *Frailty*: Fire
-- *Gear*: Pocket Knife, Fake ID
-- *Goal*: Feed Safely
-- *Motive*: Hunger
-- *Nemesis*: Vampire Hunters
-
-=== Hand Henchman
-- *Concept*: Hardened Gangster
-- *Skills*: Intimidation, Guns
-- *Frailty*: Mortal
-- *Gear*: Revolver, Brass Knuckles
-- *Goal*: Climb the ranks of the Hand
-- *Motive*: Greed
-- *Nemesis*: Cops
-
-=== Blood Vampire
-- *Concept*: Persuasive Predator
-- *Skills*: Seduction, Superhuman Strength
-- *Frailty*: UV Light
-- *Gear*: Blood Bag Kit, Napkin
-- *Goal*: Acquire blood dolls
-- *Motive*: Thirst
-- *Nemesis*: Vampire Hunters
-
-=== Nomad Witch
-- *Concept*: Rebel Mage
-- *Skills*: Moon Magic, Alchemy
-- *Frailty*: Weary
-- *Gear*: Invisibility Potion, Wand
-- *Goal*: Stay Hidden
-- *Motive*: Fear
-- *Nemesis*: Wizardry Union
-
-=== Werewolf
-- *Concept*: Aggressive Monster
-- *Skills*: Superhuman Agility, Superhuman Strength
-- *Frailty*: Silver
-- *Gear*: -
-- *Goal*: Kill and destroy
-- *Motive*: Rage
-- *Nemesis*: Wizardry Union, Hunters, Knights of the Cross
-
-*Specter*
-- *Concept*: Deceiving Ghost
-- *Skills*: Illusion, Telekinesis
-- *Frailty*: UV Light
-- *Gear*: Spectral gear of their past life
-- *Goal*: Revenge
-- *Motive*: Rage
-- *Nemesis*: Ghost hunters
-
-*Amateur Occultist*
-- *Concept*: Cunning Bookworm
-- *Skills*: Ritual Magic, Ancient Lore
-- *Frailty*: Physically Weak
-- *Gear*: Ancestral Tome, Protective Talisman
-- *Goal*: Learn Powerful Magic
-- *Motive*: Curiosity
-- *Nemesis*: Night Monsters
-
-*FSB Detective*
-- *Concept*: Hardboiled Ex-military Detective
-- *Skills*: Guns, Investigation
-- *Frailty*: No one believes them
-- *Gear*: 9mm Pistol, Federal Badge
-- *Goal*: Expose Night Monsters
-- *Motive*: Duty
-- *Nemesis*: The Order
-
-*Police Detective*
-- *Concept*: Overworked Officer
-- *Skills*: Guns, Investigation
-- *Frailty*: Scared and unmotivated
-- *Gear*: 9mm Pistol, Police Badge
-- *Goal*: Avoid getting hurt
-- *Motive*: Weakness
-- *Nemesis*: The Hand
+Not all mages bend the knee. Some reject the Union's bureaucracy, its control, its archaic laws. These rebels live as nomads, always on the run, or hidden so deep the Union can't find them. Sometimes they band together. When those groups get too big, the Union crushes them.
