@@ -1,4 +1,4 @@
-#import "../template.typ": keep_together
+#import "../template.typ": keep_together, rpg_table
 
 #pagebreak()
 #keep_together[
@@ -100,4 +100,113 @@
   - *Goal*: Avoid getting hurt
   - *Motive*: Weakness
   - *Nemesis*: The Hand
+]
+
+#keep_together[
+  === Trickster Spirit
+  - *Concept*: Chaotic Prankster
+  - *Skills*: Illusion, Glamour
+  - *Frailty*: Cursed Tears
+  - *Gear*: Enchanted Flute, Strange Dust
+  - *Goal*: Cause Chaos
+  - *Motive*: Boredom
+  - *Nemesis*: The Order
+]
+
+#keep_together[
+  === Ghoul Dog
+  - *Concept*: Rabid Dog
+  - *Skills*: Stealth, Claws
+  - *Frailty*: Sunlight
+  - *Gear*: -
+  - *Goal*: Feast on Blood
+  - *Motive*: Hunger
+  - *Nemesis*: Hunters
+]
+
+#keep_together[
+  === Corporate Warlock
+  - *Concept*: Ruthless Executive
+  - *Skills*: Mind Control, Finance
+  - *Frailty*: Contractual Loopholes
+  - *Gear*: Designer Suit, Cursed Pen
+  - *Goal*: Acquire Power
+  - *Motive*: Ambition
+  - *Nemesis*: Wizardry Union
+]
+
+#keep_together[
+  === Horrors
+
+  Use these tables to generate unique and terrifying horrors by combining their Nature, Form, and Behavior.
+
+  #rpg_table(
+    columns: (auto, 1fr, 1fr, 1fr),
+    [D6],
+    [Nature],
+    [Form],
+    [Behavior],
+    [1],
+    [Undead],
+    [Humanoid],
+    [Stalking],
+    [2],
+    [Fungal],
+    [Amorphous],
+    [Frenzied],
+    [3],
+    [Construct],
+    [Bestial],
+    [Deceptive],
+    [4],
+    [Infernal],
+    [Swarm],
+    [Parasitic],
+    [5],
+    [Cursed],
+    [Arachnid],
+    [Hive-minded],
+    [6],
+    [Spectral],
+    [Winged],
+    [Puppeted],
+  )
+]
+
+#keep_together[
+  === Specter Generator
+
+  Use these tables to generate haunting specters by combining their Tether, Trigger, and Behavior.
+
+  #rpg_table(
+    columns: (auto, 1fr, 1fr, 1fr),
+    [D6],
+    [Tether],
+    [Trigger],
+    [Behavior],
+    [1],
+    [Cursed Object],
+    [Trespassing],
+    [Wailing],
+    [2],
+    [Unfinished Business],
+    [Speaking Name],
+    [Poltergeist],
+    [3],
+    [Specific Location],
+    [Touching Tether],
+    [Possession],
+    [4],
+    [Living Relative],
+    [Reflection],
+    [Illusion],
+    [5],
+    [Corpse],
+    [Specific Sound],
+    [Life Drain],
+    [6],
+    [Dark Ritual],
+    [Fear],
+    [Freezing],
+  )
 ]

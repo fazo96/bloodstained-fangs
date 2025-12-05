@@ -1,8 +1,14 @@
 #import "../template.typ": keep_together
 
-The City never sleeps. Beneath the neon glow and the wail of sirens, monsters walk among the living. Vampires hunt in nightclubs. Werewolves prowl the parks. Witches work their craft in basement apartments. They hide in plain sight—your coworker, your neighbor, the stranger on the subway. Maybe you're one of them now. Your old life is ash. You've crossed a line you can't uncross. The beast is inside you—the hunger, the power, the curse. You're a predator wearing a human face, and the people you used to be one of? They're prey. Or maybe you're still human. Maybe you saw something you weren't supposed to see. Maybe someone you loved was taken. Maybe you hunt the things that go bump in the night. Either way, you're in the underworld now. And there's no going back.
+The City never sleeps, but it *dreams in nightmares*. Beneath the neon glow and the wail of sirens, *monsters walk among the living*. Vampires hunt in the velvet VIP rooms of exclusive nightclubs. Werewolves prowl the manicured parks under the pale moon. Witches work their forbidden craft in damp basement apartments. They hide in plain sight—your coworker, your neighbor, the stranger on the subway.
 
-Bloodstained Fangs is a solo tabletop RPG that drags you into the urban underworld—a shadow society of supernatural creatures clawing for survival in a modern metropolis. Vampires, werewolves, wizards, and worse have carved out territories, formed fragile alliances, and built empires on blood and secrets. The balance is razor-thin. One wrong move and the whole thing collapses. You'll navigate the brutal politics of the night, face impossible choices, and fight to survive in a world that devours the weak—whether you're struggling to master the beast within or desperately trying to stay human in a city that wants to bleed you dry.
+Maybe *you're one of them now*. Your old life is ash, scattered by the wind. You've crossed a line you can't uncross. The beast is inside you—the *hunger*, the *power*, the *curse*. You're a predator wearing a human face, and the people you used to be one of? They're prey.
+
+Or maybe you're *still human*. Maybe you saw something you weren't supposed to see. Maybe someone you loved was taken by the shadows. Maybe you hunt the things that go bump in the night. Either way, you're in the *underworld* now. And there's no going back.
+
+*Bloodstained Fangs* is a solo tabletop RPG that drags you kicking and screaming into the urban underworld—a shadow society of supernatural creatures clawing for survival in a modern metropolis. Vampires, werewolves, wizards, and worse have carved out territories, formed fragile alliances, and built empires on *blood and secrets*.
+
+The balance is razor-thin. One wrong move and the whole thing collapses into chaos. You'll navigate the *brutal politics of the night*, face impossible choices, and fight to survive in a world that devours the weak—whether you're struggling to master the beast within or desperately trying to stay human in a city that wants to *bleed you dry*.
 
 #keep_together[
   == Introduction

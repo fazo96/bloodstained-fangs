@@ -4,12 +4,16 @@
   title: "Bloodstained Fangs",
   subtitle: "A Solo Urban Fantasy Horror RPG",
   author: "Enrico Fasoli",
-  version: "Beta RC4",
+  version: "Beta RC5",
   cover-image: "art/cover_art.webp",
 )
 
 // Include all chapters in order
 #include "src/1_intro.typ"
+
+#page(
+  foreground: image("art/vampire_computers.webp", width: 100%, height: 100%, fit: "cover"),
+)[]
 
 #page(
   foreground: image("art/detective.webp", width: 100%, height: 100%, fit: "cover"),
@@ -24,6 +28,10 @@
 #include "src/3_characters.typ"
 
 #page(
+  foreground: image("art/witch_patch.webp", width: 100%, height: 100%, fit: "cover"),
+)[]
+
+#page(
   foreground: image("art/merc_alley.webp", width: 100%, height: 100%, fit: "cover"),
 )[[]]
 
@@ -36,10 +44,18 @@
 #include "src/5_setting.typ"
 
 #page(
+  foreground: image("art/wizard_run.webp", width: 100%, height: 100%, fit: "cover"),
+)[[]]
+
+#page(
   foreground: image("art/mob_money.webp", width: 100%, height: 100%, fit: "cover"),
 )[[]]
 
 #include "src/6_factions.typ"
+
+#page(
+  foreground: image("art/ghost_hunter.webp", width: 100%, height: 100%, fit: "cover"),
+)[[]]
 
 #page(
   foreground: image("art/knight_priest.webp", width: 100%, height: 100%, fit: "cover"),

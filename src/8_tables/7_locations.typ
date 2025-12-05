@@ -1,54 +1,151 @@
-#import "../../template.typ": keep_together, rpg_table, table_d66, table_d66_double
+#import "../../template.typ": keep_together, matrix_d6, rpg_table, table_d66, table_d66_double
 
 #pagebreak()
-=== Locations
+#keep_together[
+  === Locations
 
-==== Type of Place
+  Every corner of the City hides something—a deal going down, a body cooling, or worse.
+
+  #rpg_table(
+    columns: (auto, 1fr, auto, 1fr),
+    [D6],
+    [District],
+    [D6],
+    [District],
+    [1],
+    [The Docks],
+    [2],
+    [The Beach],
+    [3],
+    [Downtown],
+    [4],
+    [Slum],
+    [5],
+    [Misty Park Forest],
+    [6],
+    [Riverside],
+  )
+
+  #keep_together[
+    #rpg_table(
+      columns: (auto, 1fr, 1fr, 1fr),
+      [],
+      [The Docks],
+      [The Beach],
+      [Downtown],
+      [1],
+      [Warehouse],
+      [Beach Club],
+      [Skyscraper Office],
+      [2],
+      [Shipping Yard],
+      [Bonfire Gathering],
+      [Luxury Hotel],
+      [3],
+      [Luxury Yacht],
+      [Beachside Bar],
+      [Fancy Restaurant],
+      [4],
+      [Cargo Ship],
+      [Surf Shop],
+      [Corporate HQ],
+      [5],
+      [Abandoned Pier],
+      [Seaside Motel],
+      [Security Firm],
+      [6],
+      [Smuggler's Den],
+      [Lighthouse],
+      [Penthouse ],
+    )
+
+    #rpg_table(
+      columns: (auto, 1fr, 1fr, 1fr),
+      [],
+      [Slum],
+      [Riverside],
+      [Misty Park Forest],
+      [1],
+      [*Shatter*],
+      [Train Station],
+      [*The Big House*],
+      [2],
+      [Wrecked Building],
+      [Promenade],
+      [Ranger Station],
+      [3],
+      [Drug Den],
+      [Bridge Underpass],
+      [Hiking Trail],
+      [4],
+      [Pawn Shop],
+      [Cargo Terminal],
+      [Hidden Grove],
+      [5],
+      [Sketchy Casino],
+      [Romantic Cafe],
+      [Abandoned Cabin],
+      [6],
+      [Back Alley Bar],
+      [Ferry Dock],
+      [Stone Circle],
+    )
+  ]
+]
+
+
+#pagebreak()
+==== Other Places
+
+Not every scene happens in the obvious spots—sometimes you need somewhere off the beaten path.
 
 #table_d66_double(
   (
-    [Mansion],
-    [Pub/Bar],
-    [Apartment],
-    [House],
-    [Hotel],
-    [Restaurant],
-    [Library],
-    [Cemetery],
-    [Art Gallery],
+    [Abandoned Building],
+    [Back Alley],
+    [Dive Bar],
     [Parking Garage],
-    [City Hall],
-    [Coffee Shop],
-    [Psychic Parlor],
-    [Drug Market],
-    [Prison],
     [Rooftop],
-    [Square],
-    [Night Market],
-    [Cottage],
-    [Cabin],
-    [Funeral Home],
-    [University Building],
-    [Subway Station],
-    [Park],
-    [Museum],
+    [Basement],
+    [Condemned Apartment],
+    [Pawn Shop],
+    [All-Night Diner],
+    [Strip Club],
+    [Tattoo Parlor],
+    [Laundromat],
     [Convenience Store],
-    [Diner],
-    [Amusement Park],
-    [Theater],
-    [Movie Theater],
-    [Antique Shop],
     [Gas Station],
-    [Food Stand],
-    [Homeless Shelter],
-    [Brothel],
-    [Adult Club],
+    [Motel Room],
+    [Subway Platform],
+    [Cemetery],
+    [Funeral Home],
+    [Occult Bookshop],
+    [Psychic Parlor],
+    [Antique Shop],
+    [Shooting Range],
+    [Boxing Gym],
+    [Abandoned Factory],
+    [Storage Unit],
+    [Parking Lot],
+    [Bridge Underpass],
+    [Sewer Access],
+    [Theater],
+    [Shuttered Casino],
+    [Homeless Encampment],
+    [Drug Den],
+    [Chop Shop],
+    [Illegal Fight Club],
+    [Black Market],
+    [Illegal Clinic],
   ),
   [Place],
 )
 
 #pagebreak()
 ==== Place Quirk
+
+Every location has its own atmosphere—something that sets the mood before the blood starts flowing.
+
 
 #table_d66_double(
   (
@@ -95,6 +192,9 @@
 #pagebreak()
 ==== Secret Location Inside
 
+Behind locked doors and hidden passages, the City's true horrors wait in the dark.
+
+
 #table_d66(
   (
     [Vault],
@@ -135,49 +235,4 @@
     [Blood Chamber],
   ),
   [Secret Room],
-)
-
-#pagebreak()
-==== Neighborhood Known For…
-
-#table_d66_double(
-  (
-    [Nightlife],
-    [Industrial parks],
-    [Gentrified housing],
-    [Touristic beaches],
-    [Quiet suburbs],
-    [Natural parks],
-    [Crime],
-    [Poverty],
-    [Vacant houses],
-    [Cemeteries],
-    [Woods],
-    [Pond],
-    [Food stalls],
-    [Business centers],
-    [Universitiy],
-    [Shopping malls],
-    [Bus terminals],
-    [Construction zones],
-    [Museums],
-    [Hotels],
-    [Slums],
-    [Abandoned factories],
-    [Public squares],
-    [Power stations],
-    [Skyscrapers],
-    [Rail stations],
-    [Community centers],
-    [Warehouses],
-    [Government buildings],
-    [Historic buildings],
-    [Red light district],
-    [Financial district],
-    [Arts district],
-    [Beach],
-    [Underground tunnels],
-    [Supernatural activity],
-  ),
-  [Known For],
 )

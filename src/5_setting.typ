@@ -14,20 +14,19 @@
 #keep_together[
   === Districts
 
-  - *The Docks*: The Hand's muscle moves shipments through rusted containers in the dead of night. Don't ask what's inside.
-  - *The Beach*: Bonfires and bass lines. Late-night cocktails served on black sand. Music, pills, and willing prey. Soul Vampires thrive here.
-  - *Downtown*: Glass towers and old money. Private security and cops who actually show up. The richest hunting grounds—whether you're after blood dolls or vault codes. Skyscrapers loom like tombstones, casting long shadows over the streets below.
-  - *Slum*: Where junkies get rolled and dealers cut their product with rat poison. Dive bars glow red through grimy windows. Feral things stalk the alleys, looking for easy meals—drunks, vagrants, anyone who won't be missed.
-  - *Oldtown*: The Hand's beating heart. Strangers who wander in after dark don't wander out. Dangerous ground for monsters and mortals alike. Casinos with velvet ropes and back-alley card games where the stakes are higher than money.
-  - *Misty Park Forest*: A nature preserve patrolled by rangers who know the woods too well. Home to wolves. Just wolves. Probably.
-  - *Riverside*: The City's main artery. Trains disgorge commuters and cargo around the clock. Well-lit, well-patrolled. The underworld flows through but never lingers.
+  1. *The Docks*: The Hand's muscle moves shipments through rusted containers in the dead of night. Don't ask what's inside.
+  2. *The Beach*: Bonfires and bass lines. Late-night cocktails served on black sand. Music, pills, and willing prey. Soul Vampires thrive here.
+  3. *Downtown*: Glass towers and old money. Private security and cops who actually show up. The richest hunting grounds—whether you're after blood dolls or vault codes. Skyscrapers loom like tombstones, casting long shadows over the streets below.
+  4. *Slum*: Where junkies get rolled and dealers cut their product with rat poison. Dive bars glow red through grimy windows, casinos with velvet ropes and back-alley card games where the stakes are higher than money. Feral things stalk the alleys, looking for easy meals—drunks, vagrants, anyone who won't be missed.
+  5. *Misty Park Forest*: A nature preserve patrolled by rangers who know the woods too well. Home to wolves. Just wolves. Probably.
+  6. *Riverside*: The City's main artery. Trains disgorge commuters and cargo around the clock. Well-lit, well-patrolled. The underworld flows through but never lingers.
 ]
 
 #keep_together[
   === Important Points of Interest
 
   - *The Cathedral*: Sanctuary for the Knights of the Cross and anyone desperate enough to seek shelter. Father Martin turns no one away. His faith is the real deal.
-  - *Jimmy's*: A pawn shop wedged under a bridge in Oldtown. Jimmy keeps the good stuff under the counter—weapons for hunting things that don't die easy.
+  - *Jimmy's*: A pawn shop wedged under a bridge in the Slum. Jimmy keeps the good stuff under the counter—weapons for hunting things that don't die easy.
   - *Shatter*: Downtown's most exclusive nightclub. If you're not on the list, you're not getting in. Inside, vampires of every stripe mingle freely. Blood dolls draped over velvet couches, necks already bruised.
   - *Alder Medical Inc.*: Knock on the basement door in the back alley. A guy in scrubs will sell you blood bags, no questions asked. Bring cash. Lots of it.
   - *Big House*: A sprawling wooden mansion deep in Misty Park Forest. Werewolf territory. Also home to runaways, outcasts, and anyone hiding from something worse than the law.
