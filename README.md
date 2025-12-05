@@ -2,6 +2,8 @@
 
 A solo tabletop RPG of vampires, werewolves, and witches struggling to survive in the urban shadows.
 
+[Download for free](https://bloodstained-fangs.trippy.pizza)
+
 ## Compiling the PDF
 
 This book is written in [Typst](https://typst.app/), a modern markup-based typesetting system.
@@ -9,8 +11,6 @@ This book is written in [Typst](https://typst.app/), a modern markup-based types
 ### Prerequisites
 
 You need to have Typst installed on your system. Choose one of the following methods:
-
-#### Option 1: Using Nix (Recommended for this project)
 
 If you have Nix installed, simply run:
 
@@ -20,46 +20,15 @@ nix-shell
 
 This will automatically load the development environment with Typst installed.
 
-#### Option 2: Install Typst directly
+Otherwise, visit [Typst's releases page](https://github.com/typst/typst/releases) and install Typst on your system.
 
-- **Using Homebrew (macOS/Linux):**
-  ```bash
-  brew install typst
-  ```
+### Scripts
 
-- **Using Cargo (Rust package manager):**
-  ```bash
-  cargo install --git https://github.com/typst/typst --locked typst-cli
-  ```
+Once Typst is installed you can use the following scripts:
 
-- **Download pre-built binaries:**
-  Visit [Typst's releases page](https://github.com/typst/typst/releases) and download the appropriate binary for your system.
+- `build.sh`: Compiles the PDF and updates the website
+- `watch.sh`: Watches for changes and recompiles the PDF automatically
 
-### Compilation Commands
-
-Once Typst is installed, compile the book using:
-
-```bash
-typst compile main.typ
-```
-
-This will generate `main.pdf` in the project root directory.
-
-#### Custom output filename
-
-To specify a custom output filename:
-
-```bash
-typst compile main.typ bloodstained-fangs.pdf
-```
-
-#### Watch mode (automatically recompile on changes)
-
-For development, you can use watch mode to automatically recompile when files change:
-
-```bash
-typst watch main.typ
-```
 
 ### Project Structure
 
@@ -67,28 +36,11 @@ typst watch main.typ
 bloodstained-fangs/
 ├── main.typ           # Main entry point that includes all chapters
 ├── template.typ       # Custom template with styling and layout
-├── src/              # Chapter source files
-│   ├── 1_intro.typ
-│   ├── 2_setting_intro.typ
-│   ├── 3_characters.typ
-│   ├── 4_rules.typ
-│   ├── 5_setting.typ
-│   ├── 6_factions.typ
-│   ├── 7_creatures.typ
-│   ├── 8_tables.typ
-│   └── 9_outro.typ
-└── md/               # Original markdown files (for reference)
+├── src/               # Chapter source files
+├── website/           # Website (static) files
+├── fonts/             # Fonts used in the PDF
+├── art/               # Images
 ```
-
-### Troubleshooting
-
-**Missing fonts:**
-If you encounter font-related errors, Typst will use fallback fonts automatically. The template uses "Linux Libertine" which is widely available. If needed, you can modify the font in `template.typ`.
-
-**Compilation errors:**
-- Ensure all files in `src/` directory exist and are properly formatted Typst files
-- Check that the template file is not corrupted
-- Verify you're using a recent version of Typst: `typst --version`
 
 ## Development
 
@@ -103,6 +55,15 @@ If you encounter font-related errors, Typst will use fallback fonts automaticall
 1. Create a new `.typ` file in the `src/` directory
 2. Add an `#include` line in `main.typ` at the appropriate position
 
+## Credits
+
+This games contains elements from:
+
+- Loner (CC BY-SA 4.0 Roberto Bisceglie)
+- Elegy (CC BY-SA 4.0 Moro de Oliveira)
+
 ## License
 
-See the book content for licensing information.
+CC BY-SA 4.0
+
+See [LICENSE.md](LICENSE.md) for details.
