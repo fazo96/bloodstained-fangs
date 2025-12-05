@@ -305,3 +305,28 @@
 
   Also update the list of *NPCs*, *Locations*, and *Events* that may show up again in future adventures.
 ]
+
+#keep_together[
+  === Playing as a Group
+
+  While _Bloodstained Fangs_ is designed primarily for *solo play*, its mechanics can be adapted for *group sessions*. Since the game is derived from *Freeform Universal*, there's nothing stopping you from playing it with others—if you really want to. Just be prepared to adapt things as needed.
+
+  There are two main ways to play in a group:
+]
+
+#keep_together[
+  ==== Without a Game Master (GM-less Mode)
+
+  - Each player controls their own *Protagonist* and asks questions to the *Oracle*, just like in solo play.
+  - The *Oracle's answers and world reactions* are interpreted by the player who asked the question.
+  - A *Facilitator* (either a rotating or fixed role) helps *moderate*, *remind players of rules*, and *settle disputes* if needed.
+  - Questions affecting the *whole group* should be discussed collectively.
+]
+
+#keep_together[
+  ==== With a Game Master
+
+  - The *GM does not roll dice*—only the players consult the Oracle.
+  - The GM interprets Oracle responses and presents the *world's reactions*.
+  - The GM also acts as a *facilitator*, guiding the flow of the story and helping resolve questions.
+]
