@@ -16,6 +16,11 @@
 // HELPER FUNCTIONS
 // ============================================================================
 
+// Helper to keep content together (e.g. heading + table)
+#let keep_together(body) = {
+  block(breakable: false, width: 100%, body)
+}
+
 // Custom table styling for RPG tables
 // Automatically detects grid tables (more than 2 columns) and disables hyphenation
 #let rpg_table(..args, body) = {
@@ -28,18 +33,20 @@
   }
 
   show table.cell: it => {
-    if it.y == 0 {
-      set text(fill: white, weight: "bold", size: 9pt)
-      it
-    } else {
-      if is_grid {
-        set text(hyphenate: false, size: 9pt)
-        set par(justify: false)
+    block(breakable: false)[
+      #if it.y == 0 {
+        set text(fill: white, weight: "bold", size: 9pt)
         it
       } else {
-        it
+        if is_grid {
+          set text(hyphenate: false, size: 9pt)
+          set par(justify: false)
+          it
+        } else {
+          it
+        }
       }
-    }
+    ]
   }
 
   table(
@@ -54,10 +61,130 @@
   )
 }
 
-// Helper to keep content together (e.g. heading + table)
-#let keep_together(body) = {
-  block(breakable: false, width: 100%, body)
+// Matrix d6 table generator for d66 oracle tables
+// Takes an array of 36 items and generates two tables showing the full 6x6 matrix
+// Items should be ordered row-by-row: [11, 12, 13, 14, 15, 16, 21, 22, ...]
+#let matrix_d6(items, breakable: false) = {
+  assert(items.len() == 36, message: "matrix_d6 requires exactly 36 items")
+
+  // First table: columns 1-3
+  let table1 = rpg_table(
+    columns: (auto, 1fr, 1fr, 1fr),
+    [],
+    [1],
+    [2],
+    [3],
+    ..for row in range(6) {
+      (
+        [#(row + 1)],
+        items.at(row * 6 + 0),
+        items.at(row * 6 + 1),
+        items.at(row * 6 + 2),
+      )
+    }.flatten(),
+  )
+
+  // Second table: columns 4-6
+  let table2 = rpg_table(
+    columns: (auto, 1fr, 1fr, 1fr),
+    [],
+    [4],
+    [5],
+    [6],
+    ..for row in range(6) {
+      (
+        [#(row + 1)],
+        items.at(row * 6 + 3),
+        items.at(row * 6 + 4),
+        items.at(row * 6 + 5),
+      )
+    }.flatten(),
+  )
+
+  // Return both tables wrapped in keep_together
+  if breakable {
+    [
+      #table1
+      #table2
+    ]
+  } else {
+    keep_together[
+      #table1
+      #table2
+    ]
+  }
 }
+
+// Two-column d66 table generator for oracle tables
+// Takes an array of 36 items and generates a table with d66 roll numbers (11-66)
+// Items should be ordered: [11, 12, 13, 14, 15, 16, 21, 22, ..., 66]
+#let table_d66(items, title, breakable: true) = {
+  assert(items.len() == 36, message: "table_d66 requires exactly 36 items")
+
+  // Generate d66 roll numbers (11-16, 21-26, ..., 61-66)
+  let roll_numbers = ()
+  for row in range(1, 7) {
+    for col in range(1, 7) {
+      roll_numbers.push(str(row) + str(col))
+    }
+  }
+
+  // Build the table content
+  let table_content = ([D66], [#title])
+  for i in range(36) {
+    table_content.push([#roll_numbers.at(i)])
+    table_content.push(items.at(i))
+  }
+
+  let result = rpg_table(
+    columns: (auto, 1fr),
+    ..table_content,
+  )
+
+  if breakable {
+    result
+  } else {
+    keep_together(result)
+  }
+}
+
+// Four-column d66 table generator for oracle tables with two side-by-side columns
+// Takes an array of 36 items and generates a table with two d66 columns side by side
+// Items should be ordered: [11, 12, 13, 14, 15, 16, 21, 22, ..., 66]
+#let table_d66_double(items, title, breakable: true) = {
+  assert(items.len() == 36, message: "table_d66_double requires exactly 36 items")
+
+  // Generate d66 roll numbers (11-16, 21-26, ..., 61-66)
+  let roll_numbers = ()
+  for row in range(1, 7) {
+    for col in range(1, 7) {
+      roll_numbers.push(str(row) + str(col))
+    }
+  }
+
+  // Build the table content with 4 columns (D66, Detail, D66, Detail)
+  let table_content = ([D66], [#title], [D66], [#title])
+
+  // Add 18 rows (half of 36 items)
+  for i in range(18) {
+    table_content.push([#roll_numbers.at(i)])
+    table_content.push(items.at(i))
+    table_content.push([#roll_numbers.at(i + 18)])
+    table_content.push(items.at(i + 18))
+  }
+
+  let result = rpg_table(
+    columns: (auto, 1fr, auto, 1fr),
+    ..table_content,
+  )
+
+  if breakable {
+    result
+  } else {
+    keep_together(result)
+  }
+}
+
 
 // Dice notation formatter
 #let dice(notation) = {

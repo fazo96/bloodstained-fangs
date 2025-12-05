@@ -114,9 +114,7 @@
 #keep_together[
   ==== Being a Vampire
 
-  Vampires must drain the life force of mortals to survive. *For every night that passes without feeding, lose 1 Humanity*. The hunger gnaws at you, eroding what's left of your soul. If you fed before sunrise and retire to your nest sated, *gain 3 Humanity instead* (maximum 9). However, if you hurt your prey while feeding—or were interrupted mid-feast—*you gain only 1 Humanity*. The guilt lingers.
-
-  *You can leverage the supernatural* to roll with advantage, drawing on your inhuman strength, speed, and reflexes. But abusing these powers comes at a cost. The more you use them, the less human you become.
+  Vampires must drain the life force of mortals to survive (both Soul and Blood Vampires). *For every night that passes without feeding, lose 1 Humanity*. The hunger gnaws at you, eroding what's left of your soul. When you feed successfully, *gain 3 Humanity* (maximum 9). However, if you hurt your prey while feeding—or were interrupted mid-feast—*you gain only 1 Humanity*. The guilt lingers.
 ]
 
 #keep_together[
@@ -141,7 +139,7 @@
 
   + First, describe in the fiction what supernatural power, object, or technique you're using and how it gives you an advantage in this situation.
   + Reduce your Humanity by one as you summon the power within.
-  + Roll a d6. If the result is *higher* than your Humanity, roll on the Mystic Backlash table below to see what horrific consequence befalls you. If the result is *equal to or lower* than your Humanity, you can re-roll your Chance dice once and keep the highest number.
+  + Roll a d6. If the result is *higher* than your Humanity, roll on the Mystic Backlash table below to see what horrific consequence befalls you. If the result is *equal to or lower* than your Humanity, you can do another Oracle roll with advantage to act, emboldened by your power.
 ]
 
 #keep_together[

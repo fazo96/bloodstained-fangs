@@ -51,5 +51,12 @@
   foreground: image("art/police_car.webp", width: 100%, height: 100%, fit: "cover"),
 )[[]]
 
-#include "src/8_tables.typ"
-#include "src/9_outro.typ"
+#include "src/8_tables/1_adventure_seeds.typ"
+#include "src/8_tables/2_inspiration.typ"
+#include "src/8_tables/3_character.typ"
+#include "src/8_tables/4_ambience.typ"
+#include "src/8_tables/5_rumors.typ"
+#include "src/8_tables/6_story.typ"
+#include "src/8_tables/7_locations.typ"
+
+#include "src/999_outro.typ"
