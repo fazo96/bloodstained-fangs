@@ -4,7 +4,7 @@
   title: "Bloodstained Fangs",
   subtitle: "A Solo Urban Fantasy Horror RPG",
   author: "Enrico Fasoli",
-  version: "Beta RC3",
+  version: "Beta RC4",
   cover-image: "art/cover_art.webp",
 )
 
