@@ -134,6 +134,14 @@ html {
     margin-bottom: 2rem;
 }
 
+.button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .version {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.6);
