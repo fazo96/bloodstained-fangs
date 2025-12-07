@@ -3,7 +3,7 @@
 #pagebreak()
 == Adventure Tables
 
-Every city bleeds its own stories. Roll on the table below when you need a hook sharp enough to draw blood—something to drag your players into the dark. These seeds are starting points, not scripts. Twist them. Make them yours. Let them fester.
+Every city bleeds its own stories. Roll on the table below when you need a hook sharp enough to draw blood. These seeds are starting points, not scripts. Twist them. Make them yours. Let them fester.
 
 #table_d66(
   (

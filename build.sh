@@ -17,8 +17,9 @@ typst compile --format pdf --font-path ./fonts main_pod.typ main_pod.pdf
 mkdir -p website
 
 # Copy the PDF to the website folder with the correct name
-echo "Copying PDF to website folder..."
+echo "Copying PDFs to website folder..."
 cp main.pdf "website/Bloodstained Fangs.pdf"
+cp main_ita.pdf "website/Bloodstained Fangs ITA.pdf"
 
 # Copy images to website folder
 echo "Copying over images to website folder..."

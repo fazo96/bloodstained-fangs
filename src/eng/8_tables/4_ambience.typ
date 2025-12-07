@@ -1,4 +1,4 @@
-#import "../../../template.typ": keep_together, rpg_table, table_d66_double
+#import "../../../template.typ": rpg_table, table_d66_double
 
 #pagebreak()
 === Ambience Tables
@@ -43,7 +43,7 @@ The city never sleeps—what small moments of life unfold on the streets tonight
     [Skater passes. Manga page on back of shirt.],
     [Yowling of cat in heat echoes between buildings.],
     [Security guard sighs and lights a cigarette.],
-    [Someone in disheveled formal wear sighs at a bus stop.],
+    [Sickly woman buys something at the 24/7 pharmacy window.],
     [Puddles reflect the moon, footsteps distort images.],
   ),
   [Detail],

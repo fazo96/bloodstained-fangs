@@ -149,17 +149,34 @@ html {
 
 .download-btn {
     display: inline-block;
-    padding: 1rem 2rem;
+    padding: 0.8rem 1.5rem;
     background-color: rgba(139, 0, 0, 0.2);
     border: 2px solid var(--blood-red);
     color: var(--parchment);
     text-decoration: none;
     font-family: 'Montserrat', serif;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
     transition: all 0.3s ease;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--parchment);
+    text-decoration: underline;
+    font-family: 'Montserrat', serif;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.substack-link:hover {
+    color: var(--blood-red);
+    border-bottom-color: var(--blood-red);
+    text-shadow: 0 0 5px rgba(139, 0, 0, 0.5);
 }
 
 .download-btn:hover {

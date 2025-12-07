@@ -16,11 +16,11 @@
 #keep_together[
   === Distretti
 
-  1. *Il Molo*: I muscoli della Mano spostano carichi attraverso container arrugginiti nel cuore della notte. Non chiedere cosa c'è dentro.
+  1. *Il Porto*: I muscoli della Mano spostano carichi attraverso container arrugginiti nel cuore della notte. Non chiedere cosa c'è dentro.
   2. *Lungomare*: Falò e linee di basso. Cocktail a tarda notte serviti su sabbia nera. Musica, pillole e prede consenzienti. I Vampiri dell'Anima prosperano qui.
   3. *Centro*: Torri di vetro e vecchi soldi. Sicurezza privata e poliziotti che si presentano davvero. I terreni di caccia più ricchi—che tu stia cercando bambole di sangue o codici di caveau. I grattacieli incombono come lapidi, proiettando lunghe ombre sulle strade sottostanti.
   4. *Bassifondi*: Dove i tossici vengono derubati e gli spacciatori tagliano il loro prodotto con veleno per topi. Le bettole brillano di rosso attraverso finestre sporche, casinò con corde di velluto e partite a carte nei vicoli dove la posta in gioco è più alta del denaro. Cose feroci perseguitano i vicoli, in cerca di pasti facili—ubriachi, vagabondi, chiunque non mancherà a nessuno.
-  5. *Misty Park Forest*: Una riserva naturale pattugliata da ranger che conoscono i boschi troppo bene. Casa dei lupi. Solo lupi. Probabilmente.
+  5. *Foresta di Misty Park*: Una riserva naturale pattugliata da ranger che conoscono i boschi troppo bene. Casa dei lupi. Solo lupi. Probabilmente.
   6. *Riverside*: L'arteria principale della Città. I treni vomitano pendolari e merci 24 ore su 24. Ben illuminata, ben pattugliata. Il mondo sotterraneo scorre attraverso ma non si ferma mai.
 ]
 
@@ -31,7 +31,7 @@
   - *Da Jimmy*: Un banco dei pegni incastrato sotto un ponte nei Bassifondi. Jimmy tiene la roba buona sotto il bancone—armi per cacciare cose che non muoiono facilmente.
   - *Shatter*: Il nightclub più esclusivo del Centro. Se non sei sulla lista, non entri. All'interno, vampiri di ogni risma si mescolano liberamente. Bambole di sangue drappeggiate su divani di velluto, colli già lividi.
   - *Alder Medical Inc.*: Bussa alla porta del seminterrato nel vicolo sul retro. Un tizio in camice ti venderà sacche di sangue, senza fare domande. Porta contanti. Molti.
-  - *Big House* (La Grande Casa): Una vasta villa in legno nel profondo di Misty Park Forest. Territorio dei lupi mannari. Anche casa per fuggitivi, emarginati e chiunque si nasconda da qualcosa di peggio della legge.
+  - *Big House* (La Grande Casa): Una vasta villa in legno nel profondo di Foresta di Misty Park. Territorio dei lupi mannari. Anche casa per fuggitivi, emarginati e chiunque si nasconda da qualcosa di peggio della legge.
   - *QG Polizia*: Centro. Dove i detective più duri della Città lavorano ai casi che spezzano le menti. Alcuni crollano sotto la pressione. Alcuni diventano canaglia. Alcuni scompaiono nella stessa oscurità a cui davano la caccia.
   - *La Bella Vista*: Ristorante storico con una vista mozzafiato e un servizio impeccabile. Nella stanza sul retro, l'alta dirigenza della Mano gioca a poker ad alta posta con denaro che non ha mai visto una banca.
   - *La Biblioteca*: Pietra antica e segreti più antichi. Tomi rari nascosti nella sezione riservata. Il capo bibliotecario gestisce un gruppo di studio sull'occulto il giovedì sera.
