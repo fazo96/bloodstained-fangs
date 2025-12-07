@@ -151,7 +151,7 @@
 #keep_together[
   ==== Leverage the Supernatural
 
-  When you *tap into your supernatural powers*—a skill, gear, magical powers or the darkness within—to roll the Oracle with advantage, assuming you have something that grants an advantage in this specific situation.
+  You can *tap into your supernatural powers*—a skill, gear, magical powers or the darkness within—to roll the Oracle with advantage, assuming you have something that grants an advantage in this specific situation.
 
   Supernatural abilities often come with a price—each time you tap into your powers, you could lose Humanity.
 
