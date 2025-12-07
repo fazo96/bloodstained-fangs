@@ -13,3 +13,4 @@ When translating:
 Avoid translating these terms:
 
 - Fringe Science Division
+- Chance (in the context of Chance Die/Dice. Translate it as Dado Chance)

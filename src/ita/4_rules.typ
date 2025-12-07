@@ -1,334 +1,364 @@
-#import "../../template.typ": keep_together, rpg_table
+#import "../../template.typ": info-box, keep_together, rpg_table
 
-// TODO: tradurre in italiano
+// TODO: traduci in italiano
 
 #pagebreak()
 #keep_together[
-  == Rules
+  == Regole
 
-  _Bloodstained Fangs_ is a minimalist Solo Role Playing Game designed to be played with only one character (the Protagonist). You'll guide them through the story that will unravel during the game, asking closed questions to an Oracle which will help you overturn your expectations.
+  _Bloodstained Fangs_ è un Gioco di Ruolo in Solitario minimalista progettato per essere giocato con un solo personaggio (il Protagonista). Lo guiderai attraverso la storia che si dipanerà durante il gioco, ponendo domande chiuse a un Oracolo che ti aiuterà a ribaltare le tue aspettative.
 
-  Every now and then you will be surprised with an unexpected twist!
+  Di tanto in tanto sarai sorpreso da un colpo di scena inaspettato!
 
-  === Keep The Action In Motion
+  === Mantieni l'Azione in Movimento
 
-  A game in _Bloodstained Fangs_ is a succession of scenes.
-  A scene is a unit of time in which a certain action takes place in pursuit of a certain short-term goal.
+  Una partita a _Bloodstained Fangs_ è una successione di scene.
+  Una scena è un'unità di tempo in cui si svolge una certa azione per perseguire un determinato obiettivo a breve termine.
 
-  In _Bloodstained Fangs_ at each scene:
-  + *Identify what you expect from the scene*. Compared to traits, goal, and motivation determine the Protagonist's action. What might be the reaction of the game world?
-  + *Test your expectations*. When you are uncertain (or overconfident) about the reaction to your actions, ask the Oracle a closed question (answer is Yes or No), considering the tags involved to determine if there is an Advantage or Disadvantage.
-  + *Interpret the result*. Is the Oracle's answer in line with your expectations? If not, in the context in which the scene takes place, how should an answer that subverts them be considered?
+  In _Bloodstained Fangs_, in ogni scena:
+  + *Identifica cosa ti aspetti dalla scena*. Rispetto ai tratti, l'obiettivo e la motivazione determinano l'azione del Protagonista. Quale potrebbe essere la reazione del mondo di gioco?
+  + *Metti alla prova le tue aspettative*. Quando sei incerto (o troppo sicuro) sulla reazione alle tue azioni, poni all'Oracolo una domanda chiusa (la risposta è Sì o No), considerando i tag coinvolti per determinare se c'è un Vantaggio o uno Svantaggio.
+  + *Interpreta il risultato*. La risposta dell'Oracolo è in linea con le tue aspettative? Se no, nel contesto in cui si svolge la scena, come dovrebbe essere considerata una risposta che le sovverte?
 
-  This sequence will come to you naturally after some practice. Use it as a guideline the first few times.
+  Questa sequenza ti verrà naturale dopo un po' di pratica. Usala come linea guida le prime volte.
 ]
 
 #keep_together[
-  === Consulting the Oracle
+  === Consultare l'Oracolo
 
-  When you need to test your expectations you'll ask the Oracle a closed question.
+  Quando devi mettere alla prova le tue aspettative, porrai all'Oracolo una domanda chiusa.
 
-  You’ll need 2d6 in one color (*Chance Dice*), and 2d6 in another (*Risk Dice*).
+  Avrai bisogno di 2d6 di un colore (*Dadi Chance*) e 2d6 di un altro (*Dadi Rischio*).
 
-  To resolve a closed question, roll one *Chance Die* and one *Risk Die*:
-  - If the Chance Die is highest, the answer is *Yes*.
-  - If the Risk Die is highest, the answer is *No*.
-  - If both are low (3 or less), add a *but...*.
-  - If both are high (4 or more), add an *and...*.
-  - If both are equal, the answer is *Yes, but...*. Add a point to the *Twist Counter*.
+  Per risolvere una domanda chiusa, tira un *Dado Chance* e un *Dado Rischio*:
+  - Se il Dado Chance è più alto, la risposta è *Sì*.
+  - Se il Dado Rischio è più alto, la risposta è *No*.
+  - Se entrambi sono bassi (3 o meno), aggiungi un *ma...*.
+  - Se entrambi sono alti (4 o più), aggiungi un *e...*.
+  - Se entrambi sono uguali, la risposta è *Sì, ma...*. Aggiungi un punto al *Contatore dei Colpi di Scena*.
 
 
   #rpg_table(
     columns: (auto, 1fr, 1fr),
-    [Dice Value],
-    [Chance Die > Risk Die],
-    [Risk Die > Chance Die],
-    [Both ≤ 3],
-    [Yes, but...],
-    [No, but...],
-    [Both ≥ 4],
-    [Yes, and...],
-    [No, and...],
-    [Mismatched],
-    [Yes],
+    [Valore Dadi],
+    [Chance > Rischio],
+    [Rischio > Chance],
+    [Entrambi ≤ 3],
+    [Sì, ma...],
+    [No, ma...],
+    [Entrambi ≥ 4],
+    [Sì, e...],
+    [No, e...],
+    [Diseguali],
+    [Sì],
     [No],
-    [Equal],
-    [Yes, but... Add 1 to the Twist Counter],
+    [Uguali],
+    [Sì, ma... Aggiungi 1 al Contatore dei Colpi di Scena],
     [],
   )
 ]
 
 #keep_together[
-  === Advantage and Disadvantage
+  === Vantaggio e Svantaggio
 
-  If circumstances or positive tags grant an advantage, add a *Chance Die* to the roll. Otherwise, when hindrances or negative tag cause a disadvantage, add a *Risk Die*. In both cases keep only the higher die of the added type when you check the roll.
+  Se le circostanze o i tag positivi conferiscono un vantaggio, aggiungi un *Dado Chance* al tiro. Altrimenti, quando ostacoli o tag negativi causano uno svantaggio, aggiungi un *Dado Rischio*. In entrambi i casi, tieni solo il dado più alto del tipo aggiunto quando controlli il tiro.
 
-  Consider tags *intuitively and not quantitatively*, using the context of the situation at play. It is important to keep the flow of play fast and not accounting for advantages and disadvantages numerically!
+  Considera i tag *intuitivamente e non quantitativamente*, usando il contesto della situazione in gioco. È importante mantenere il flusso di gioco veloce e non calcolare vantaggi e svantaggi numericamente!
 ]
 
 #keep_together[
-  === Twist Counter
+  === Contatore dei Colpi di Scena
 
-  The Twist Counter is a measure of the rising tension in the narrative. At the beginning is set to 0. Every time a double throw (dice are equal) happens, add 1 to the Counter. If the Counter is below three, consider the answer as "*Yes, but...*". Otherwise a *Twist* happens and resets the Counter.
+  Il Contatore dei Colpi di Scena è una misura della tensione crescente nella narrazione. All'inizio è impostato a 0. Ogni volta che si verifica un tiro doppio (i dadi sono uguali), aggiungi 1 al Contatore. Se il Contatore è inferiore a tre, considera la risposta come "*Sì, ma...*". Altrimenti si verifica un *Colpo di Scena* e il Contatore si azzera.
 
-  Roll 2d6 and consult the following Twist Table to determine what kind of twist happens.
+  Tira 2d6 e consulta la seguente Tabella dei Colpi di Scena per determinare che tipo di colpo di scena accade.
 
   #rpg_table(
     columns: (auto, 1fr, 1fr),
     [D6],
-    [Subject],
-    [Action],
+    [Soggetto],
+    [Azione],
     [1],
-    [A third party],
-    [Appears],
+    [Una terza parte],
+    [Appare],
     [2],
-    [The hero],
-    [Alters the location],
+    [L'eroe],
+    [Altera il luogo],
     [3],
-    [An encounter],
-    [Helps the hero],
+    [Un incontro],
+    [Aiuta l'eroe],
     [4],
-    [A physical event],
-    [Hinders the hero],
+    [Un evento fisico],
+    [Ostacola l'eroe],
     [5],
-    [An emotional event],
-    [Changes the goal],
+    [Un evento emotivo],
+    [Cambia l'obiettivo],
     [6],
-    [An object],
-    [Ends the scene],
+    [Un oggetto],
+    [Termina la scena],
   )
 
-  Interpret the two-word sentence in the context of the current scene. Twists will keep the plot and events going in unexpected ways.
+  Interpreta la frase di due parole nel contesto della scena corrente. I colpi di scena manterranno la trama e gli eventi in movimento in modi inaspettati.
 ]
 
 #keep_together[
-  === Humanity
+  === Umanità
 
-  Every supernatural being exists in constant war between their human soul and the beast clawing its way out. For Vampires, the beast is *the hunger*—an insatiable craving for blood. For Lycanthropes, it erupts with the full moon, tearing through flesh and reason alike. For Wizards, magic flows through them like poison, warping mind and soul with every spell.
+  Ogni essere soprannaturale vive in costante guerra tra la propria anima umana e la bestia che cerca di uscire. Per i Vampiri, la bestia è *la fame*—una brama insaziabile di sangue. Per i Licantropi, erompe con la luna piena, straziando carne e ragione allo stesso modo. Per i Maghi, la magia scorre attraverso di loro come veleno, deformando mente e anima con ogni incantesimo.
 
-  If you are a mortal with no supernatural powers, you do not track Humanity. Consider yourself lucky.
+  *Quando crei un personaggio, imposta la sua Umanità a 6*.
 
-  *Your Humanity starts at 6*. It drops by one every time you do something that violates human nature or harms the innocent. *The maximum Humanity is 9*.
+  Se appropriato per il tuo personaggio, sentiti libero di iniziare la tua storia con un valore di Umanità diverso, in linea con il background e la storia del tuo personaggio.
 
-  You can *tap into your supernatural powers*—an object, technique, or the darkness within—to re-roll your Chance dice and keep the highest result, assuming you have something that grants an advantage in this specific situation.
+  *In ogni caso, l'Umanità massima è 9*. Anche i personaggi umani normali dovrebbero tracciare l'umanità: non si sa mai quando arriverà una svolta oscura.
+
+  #info-box[
+    Levi è un rinomato assassino a pagamento. Un giorno, mentre caccia un bersaglio in un magazzino abbandonato, prende un proiettile nel petto e sviene, per poi risvegliarsi guarito pochi minuti dopo. La vita gli è stata salvata da poteri magici appena risvegliati, a lungo dormienti nel suo corpo, ma non è quello che dice a se stesso. Crede che sia un atto di Dio e decide di cambiare vita. Levi inizia la sua storia con un'Umanità di 3, per via del suo passato da assassino, e il tag Rigenerazione Magica dovuto ai suoi nuovi poteri.
+  ]
 ]
 
 #keep_together[
-  ==== Being a Vampire
+  ==== Essere un Vampiro
 
-  Vampires must drain the life force of mortals to survive (both Soul and Blood Vampires). *For every night that passes without feeding, lose 1 Humanity*. The hunger gnaws at you, eroding what's left of your soul. When you feed successfully, *gain 3 Humanity* (maximum 9). However, if you hurt your prey while feeding—or were interrupted mid-feast—*you gain only 1 Humanity*. The guilt lingers.
+  I Vampiri devono drenare la forza vitale dei mortali per sopravvivere (sia Vampiri dell'Anima che del Sangue).
+
+  *Per ogni notte che passi senza nutrirti, perdi 1 Umanità*. La fame ti divora, erodendo ciò che resta della tua anima.
+
+  Quando ti nutri con successo, *guadagni 3 Umanità* (massimo 9). Tuttavia, se ferisci la tua preda mentre ti nutri—o vieni interrotto a metà banchetto—*guadagni solo 1 Umanità*. Il senso di colpa persiste.
 ]
 
 #keep_together[
-  ==== Being a Werewolf
+  ==== Essere un Licantropo
 
-  Werewolves fight a losing battle against their beastly nature, shackled to the cycle of the Moon. At night, *when experiencing a tense situation or overwhelming emotion, you feel the Moon's call*. If there is a Full Moon, the transformation is inevitable—you *must* change and *lose 1 Humanity*. Otherwise, roll a d6 to see if you can hold on:
+  I Licantropi combattono una battaglia persa contro la loro natura bestiale, incatenati al ciclo della Luna. Di notte, *quando vivi una situazione tesa o un'emozione travolgente, senti il richiamo della Luna*. Se c'è la Luna Piena, la trasformazione è inevitabile—*devi trasformarti e perdere 1 Umanità*. Altrimenti, tira un d6 per vedere se riesci a resistere:
 
-  - If you roll a 1 or below your Humanity (except 6), you remain human. The Moon's call fades, at least for now.
-  - If you roll a 6 or equal to/above your Humanity (except 1), the Moon's power surges through you. You can either transform into the beast or resist the call. If you resist, *gain 1 Humanity* and stay human—envision the struggle, the memories and emotions that anchor you to your humanity. If you give in, *lose 1 Humanity* as fur and fangs take over.
+  - Se tiri un 1 o meno della tua Umanità, rimani umano. Il richiamo della Luna svanisce, almeno per ora.
+  - Se tiri un 6 o uguale/superiore alla tua Umanità, il potere della Luna scorre attraverso di te. Puoi trasformarti nella bestia o resistere al richiamo. Se resisti, *guadagna 1 Umanità* e rimani umano—immagina la lotta, i ricordi e le emozioni che ti ancorano alla tua umanità. Se cedi, *perdi 1 Umanità* mentre pelliccia e zanne prendono il sopravvento.
 
-  You can also transform into a Wolf voluntarily if the fiction demands it. When you do, *lose 1 Humanity*.
-
-  *When transformed into a Wolf*, roll with advantage on all violent actions where you act aggressively. The beast is in control. However, roll with disadvantage when trying to avoid danger, violence, or calm down. You cannot tap into your supernatural powers in this state—you're already using them at full capacity.
-
-  *When dawn breaks*, you transform back into human form. You can also revert if the fiction demands it or if someone manages to calm the beast within you.
-
-  *You can leverage the supernatural* in human form to roll with advantage, drawing on your regenerative powers and enhanced strength and speed.
+  Puoi anche trasformarti in Lupo se la situazione lo richiede, come durante un rituale. Quando lo fai, *perdi 1 Umanità*.
 ]
 
 #keep_together[
-  ==== Leverage the supernatural
+  #info-box[
+    Quando tiri un d6 per vedere se riesci a resistere, se tiri un 1 rimani sempre umano. Se tiri un 6 puoi sempre scegliere di trasformarti nella bestia.
+  ]
 
-  + First, describe in the fiction what supernatural power, object, or technique you're using and how it gives you an advantage in this situation.
-  + Reduce your Humanity by one as you summon the power within.
-  + Roll a d6. If the result is *higher* than your Humanity, roll on the Mystic Backlash table below to see what horrific consequence befalls you. If the result is *equal to or lower* than your Humanity, you can do another Oracle roll with advantage to act, emboldened by your power.
+  *Quando sei trasformato in Lupo*, tira con vantaggio su tutte le azioni violente in cui agisci in modo aggressivo. La bestia ha il controllo. Tuttavia, tira con svantaggio quando cerchi di evitare il pericolo, la violenza o di calmarti. Non puoi attingere ai tuoi poteri soprannaturali in questo stato: li stai già usando alla massima capacità.
+
+  *Quando sorge l'alba*, ti ritrasformi in forma umana. Puoi anche tornare indietro se la situazione lo richiede o se qualcuno riesce a calmare la bestia dentro di te.
+
+  In forma umana, puoi *sfruttare il soprannaturale* per tirare l'Oracolo con vantaggio, attingendo ai tuoi poteri rigenerativi e alla forza e velocità potenziate.
 ]
 
 #keep_together[
-  ==== Mystic Backlash
+  ==== Sfruttare il Soprannaturale
+
+  Puoi *attingere ai tuoi poteri soprannaturali*—un'abilità, un equipaggiamento, poteri magici o l'oscurità interiore—per tirare l'Oracolo con vantaggio, supponendo che tu abbia qualcosa che conferisca un vantaggio in questa specifica situazione.
+
+  Le abilità soprannaturali hanno spesso un prezzo: ogni volta che attingi ai tuoi poteri, potresti perdere Umanità.
+
+  *Non sempre paghi questo prezzo. Chiediti:*
+
+  + Mi sto spingendo oltre i miei limiti, disperato?
+  + Sto oltrepassando limiti normalmente invalicabili?
+  + Sto alimentando questo potere consumando l'anima?
+  + Con quello che sto facendo sto diventando un mostro?
+
+  *Se sì a una qualsiasi*—paghi il prezzo. *Se no*—stai solo usando le abilità e l'equipaggiamento che hai e non paghi il prezzo.
+
+  *Quando sfrutti il soprannaturale e paghi il prezzo:*
+
+  + *Immagina* come il potere ti dà un vantaggio.
+  + *Riduci la tua Umanità* di uno mentre qualcosa dentro di te avvizzisce.
+  + *Tira un d6*. Se è un 6 o superiore alla tua Umanità, tira sulla tabella del Contraccolpo Mistico: il potere si ritorce contro. Se è un 1 o è uguale o inferiore alla tua Umanità, mantieni il controllo, per ora. Tira con vantaggio, cavalcando il filo del rasoio tra umano e mostro.
+
+  #info-box[
+    Quando tiri un 1, mantieni il controllo indipendentemente dalla tua Umanità. Allo stesso modo, quando tiri un 6, perdi sempre il controllo.
+  ]
+
+]
+
+#keep_together[
+  ==== Contraccolpo Mistico
 
   #rpg_table(
     columns: 5,
     [],
-    [Mortal],
-    [Vampire],
-    [Lycantrope],
-    [Magic User],
+    [Mortale],
+    [Vampiro],
+    [Licantropo],
+    [Mago],
     [1],
-    [Your object or technique fails],
-    [Thirst overwhelms you, and you lose control],
-    [Your teeth turn into wolf fangs temporarily],
-    [It backfires],
+    [Il tuo oggetto o tecnica fallisce],
+    [La sete ti travolge e perdi il controllo],
+    [I tuoi denti diventano zanne di lupo per un po'],
+    [Ti si ritorce contro],
 
     [2],
-    [The object or technique is not what you expected],
-    [You get an unnatural, hideous bloodshot eye],
-    [You can't help but howl very loudly],
-    [It misses the target, damaging something],
+    [L'oggetto o la tecnica non è come ti aspettavi],
+    [Ti viene un occhio rosso intriso di sangue],
+    [Non puoi fare a meno di ululare molto forte],
+    [Manca il bersaglio, danneggiando qualcosa],
 
     [3],
-    [Your body is tainted or hurt],
-    [Your skin turns blueish due to strain],
-    [Your expanding chest rips your clothes],
-    [You suffer overwhelming pain due to strain],
+    [Il tuo corpo è contaminato o ferito],
+    [La tua pelle diventa bluastra a causa dello sforzo],
+    [Il tuo petto in espansione strappa i tuoi vestiti],
+    [Soffri un dolore travolgente a causa dello sforzo],
   )
-]
 
-#keep_together[
   #rpg_table(
     columns: 5,
     [],
-    [Mortal],
-    [Vampire],
-    [Lycantrope],
-    [Magic User],
+    [Mortale],
+    [Vampiro],
+    [Licantropo],
+    [Mago],
 
     [4],
-    [Your mind is temporarily warped],
-    [You are plagued by visions of doom and overwhelming pain],
-    [You experience sensory overload and instinctively flee the scene],
-    [You faint due to strain],
+    [La tua mente è distorta per un po'],
+    [Sei tormentato da visioni tremende e dolore travolgente],
+    [Sei sconvolto e fuggi dalla scena],
+    [Svieni a causa dello sforzo],
 
     [5],
-    [The effect is much weaker than you wanted],
-    [Thirst overwhelms you, and you are forced to run away],
-    [Your mind temporarily behaves like a wolf],
-    [The effect is much weaker than you wanted],
+    [L'effetto è molto più debole di quanto volevi],
+    [La sete ti travolge e sei costretto a scappare],
+    [Ti comporti da lupo per un po'],
+    [L'effetto è molto più debole di quanto volevi],
 
     [6],
-    [The effect is much stronger than you wanted],
-    [The effect is much stronger than you wanted],
-    [The effect is much stronger than you wanted],
-    [The effect is much stronger than you wanted],
+    [L'effetto è molto più forte di quanto volevi],
+    [L'effetto è molto più forte di quanto volevi],
+    [L'effetto è molto più forte di quanto volevi],
+    [L'effetto è molto più forte di quanto volevi],
   )
 ]
 
+#pagebreak()
 #keep_together[
-  ==== Losing all your humanity
+  ==== Perdere tutta l'Umanità
 
-  When your Humanity reaches zero, the beast wins. Envision how it takes over completely—destroying or grievously harming something or someone you love. The horror of what you've done snaps you back to reality. Set your Humanity to 2 as you reel from the devastation you've caused.
+  Quando la tua Umanità raggiunge lo zero, la bestia vince. Immagina come prende il sopravvento completamente, distruggendo o ferendo gravemente qualcosa o qualcuno che ami. L'orrore di ciò che hai fatto ti riporta alla realtà. Imposta la tua Umanità a 2 mentre ti riprendi dalla devastazione che hai causato.
 ]
 
 #keep_together[
-  ==== Recovering humanity
+  ==== Recuperare Umanità
 
-  When you perform a significant act that contradicts or undermines your supernatural nature—defying your instincts, rejecting power, sacrificing status—you may recover 1 Humanity.
+  Quando compi un atto significativo che contraddice o mina la tua natura soprannaturale—sfidando i tuoi istinti, rifiutando il potere, sacrificando lo status—puoi recuperare 1 Umanità.
 
-  You may also recover Humanity through extraordinary means within the fiction, or by spending a long time abstaining from supernatural activities. Redemption is possible, but never easy.
+  Puoi anche recuperare Umanità attraverso mezzi straordinari all'interno della narrazione, o trascorrendo molto tempo astenendoti da attività soprannaturali. La redenzione è possibile, ma mai facile.
 
-  Some people cling to *Faith*. They confess their sins in churches, pray for forgiveness, and recover 1 Humanity. The Lord loves and forgives all His children—even monsters—as long as they have even an ounce of Humanity left. If you choose this path, envision how your character's Faith becomes a lifeline against the darkness consuming them.
+  Alcune persone si aggrappano alla *Fede*. Confessano i loro peccati nelle chiese, pregano per il perdono e recuperano 1 Umanità. Il Signore ama e perdona tutti i Suoi figli—anche i mostri—purché abbiano anche solo un briciolo di Umanità rimasta. Se scegli questa strada, immagina come la Fede del tuo personaggio diventi un'ancora di salvezza contro l'oscurità che lo consuma.
 ]
 
 #keep_together[
-  === Conflicts
+  === Conflitti
 
-  A _Conflict_ is any situation in which opponents clash, attacking, defending, or wearing each other down in order to win.
-  This applies both in a practical and metaphorical sense.
+  Un _Conflitto_ è una qualsiasi situazione in cui gli avversari si scontrano, attaccando, difendendo o logorandosi a vicenda per vincere.
+  Questo vale sia in senso pratico che metaforico.
 
-  So, a Conflict is not only limited to combat (or fighting) in the strict sense but also to competitive situations (such as contests, duels, verbal confrontations, etc.) in which two or more characters (including vehicles, of course!) compete.
+  Quindi, un Conflitto non è limitato solo al combattimento (o alla lotta) in senso stretto, ma anche a situazioni competitive (come gare, duelli, confronti verbali, ecc.) in cui due o più personaggi (inclusi i veicoli, ovviamente!) competono.
 
-  Conflicts can be resolved in different ways depending on preferences and context:
-  + Ask a single closed question. The Oracle's answer determines the outcome of the conflict.
-  + Ask a series of closed questions to resolve current single actions.
-  + Use the rules of Harm & Luck below.
+  I conflitti possono essere risolti in modi diversi a seconda delle preferenze e del contesto:
+  + Poni una singola domanda chiusa. La risposta dell'Oracolo determina l'esito del conflitto.
+  + Poni una serie di domande chiuse per risolvere singole azioni correnti.
+  + Usa le regole di Danno & Fortuna qui sotto.
 ]
 
 #keep_together[
-  Note that the Twist Counter *does not apply* to Harm & Luck. Instead, it is used regularly if the Conflict is handled with closed questions.
+  Nota che il Contatore dei Colpi di Scena *non si applica* a Danno & Fortuna. Invece, viene usato regolarmente se il Conflitto è gestito con domande chiuse.
 
-  If the conflict is resolved by applying damage to the Luck trait, roll the dice to determine whether the protagonist causes damage to the opponent or suffers damage due to counterattack or failed defense. The rolls are player facing only.
+  Se il conflitto viene risolto applicando danni al tratto Fortuna, tira i dadi per determinare se il protagonista causa danni all'avversario o subisce danni a causa di un contrattacco o di una difesa fallita. I tiri sono effettuati solo dal giocatore.
 
-  The damage reduces the Luck of the target, whether protagonist or NPC. When the Luck runs out, the character has lost the conflict.
+  Il danno riduce la Fortuna del bersaglio, che sia protagonista o PNG. Quando la Fortuna si esaurisce, il personaggio ha perso il conflitto.
 
-  The final outcome depends on the context. Do you get caught? Are you seriously injured? You may even die if that fits the narrative.
+  L'esito finale dipende dal contesto. Vieni catturato? Sei gravemente ferito? Potresti anche morire se ciò si adatta alla narrazione.
 ]
 
 #keep_together[
   #rpg_table(
     columns: 3,
-    [Answer],
-    [Do you get what you want?],
-    [Harm],
-    [Yes, and...],
-    [You get what you want, and something else.],
-    [Cause 3],
-    [Yes...],
-    [You get what you want.],
-    [Cause 2],
-    [Yes, but...],
-    [You get what you want, but at a cost.],
-    [Cause 1],
-    [No, but...],
-    [You don’t get what you want, but it’s not a total loss.],
-    [Take 1],
+    [Risposta],
+    [Ottieni ciò che vuoi?],
+    [Danno],
+    [Sì, e...],
+    [Ottieni ciò che vuoi, e qualcos'altro.],
+    [Causa 3],
+    [Sì...],
+    [Ottieni ciò che vuoi.],
+    [Causa 2],
+    [Sì, ma...],
+    [Ottieni ciò che vuoi, ma a un costo.],
+    [Causa 1],
+    [No, ma...],
+    [Non ottieni ciò che vuoi, ma non è una perdita totale.],
+    [Subisci 1],
     [No...],
-    [You don’t get what you were after.],
-    [Take 2],
-    [No, and...],
-    [You don’t get what you want, and things get worse.],
-    [Take 3],
+    [Non ottieni ciò che cercavi.],
+    [Subisci 2],
+    [No, e...],
+    [Non ottieni ciò che vuoi, e le cose peggiorano.],
+    [Subisci 3],
   )
 ]
 
 #keep_together[
-  === Determine the mood of the next scene
+  === Determinare l'atmosfera della prossima scena
 
-  At the end of the current scene sometimes you will be clear about the direction to take, other times you may need to determine the general mood of the next one. In this case roll 1d6 and consult the following table:
+  Alla fine della scena corrente a volte avrai chiara la direzione da prendere, altre volte potresti aver bisogno di determinare l'atmosfera generale della prossima. In questo caso tira 1d6 e consulta la seguente tabella:
 
   #rpg_table(
     columns: (auto, 1fr),
     [D6],
-    [Next Scene],
+    [Prossima Scena],
     [1-3],
-    [Dramatic scene],
+    [Scena drammatica],
     [4-5],
-    [Quiet Scene],
+    [Scena tranquilla],
     [6],
-    [Meanwhile…],
+    [Nel frattempo…],
   )
 ]
 
 #keep_together[
-  - A *dramatic scene* does not break the tension of the previous scene but carries it further forward, introducing further obstacles or difficulties.
-  - During a *quiet scene* there is time to take a breath, to heal, to make plans for the next steps and to deepen relationships.
-  - A *meanwhile scene* takes place somewhere else, other than where the hero is. It cuts to villains or other plot-important characters.
+  - Una *scena drammatica* non rompe la tensione della scena precedente ma la porta ulteriormente avanti, introducendo ulteriori ostacoli o difficoltà.
+  - Durante una *scena tranquilla* c'è tempo per prendere fiato, curarsi, fare piani per i prossimi passi e approfondire le relazioni.
+  - Una *scena "nel frattempo"* si svolge altrove, in un luogo diverso da dove si trova l'eroe. Stacca sui cattivi o su altri personaggi importanti per la trama.
+]
+
+#pagebreak()
+#keep_together[
+  === Domande Aperte o Ispirazione
+
+  Per rispondere a una domanda Aperta, tira 1d6 una volta su ciascuna delle Tabelle di Ispirazione (tira almeno un verbo e un sostantivo, gli aggettivi sono facoltativi).
+
+  === Quando la storia finisce
+
+  Alla fine dell'avventura puoi aggiungere un altro tratto al personaggio. È meglio che questo sia correlato a come è appena finita la storia e può essere un'Abilità, un Equipaggiamento, una nuova Fragilità o persino una nuova Nemesi! Puoi anche modificare un tratto esistente per rappresentare meglio una competenza migliorata.
+
+  Aggiorna anche l'elenco di *PNG*, *Luoghi* ed *Eventi* che potrebbero riapparire in future avventure.
 ]
 
 #keep_together[
-  === Open-Ended Question or Get Inspired
+  === Giocare in Gruppo
 
-  To answer an Open-Ended question, roll 1d6 once on each of the Inspiration Tables (roll at least a verb and a noun, adjectives are optional).
+  Sebbene _Bloodstained Fangs_ sia progettato principalmente per il *gioco in solitario*, le sue meccaniche possono essere adattate per *sessioni di gruppo*. Poiché il gioco deriva da *Freeform Universal*, non c'è nulla che ti impedisca di giocarlo con altri—se lo desideri davvero. Preparati solo a dover adattare le cose in certi casi.
+
+  Ci sono due modi principali per giocare in gruppo:
+
+  ==== Senza Game Master (Modalità GM-less)
+
+  - Ogni giocatore controlla il proprio *Protagonista* e pone domande all'*Oracolo*, proprio come nel gioco in solitario.
+  - Le *risposte dell'Oracolo e le reazioni del mondo* sono interpretate dal giocatore che ha posto la domanda.
+  - Un *Facilitatore* (ruolo a rotazione o fisso) aiuta a *moderare*, *ricordare le regole* ai giocatori e *risolvere le dispute* se necessario.
+  - Le domande che riguardano l'*intero gruppo* dovrebbero essere discusse collettivamente.
 ]
 
 #keep_together[
-  === When the story ends
+  ==== Con un Game Master
 
-  At the end of the adventure you may add another trait to the character. It is better that this is related to how the story just ended and can be either a Skill, Gear, a new Frailty, or even a new Nemesis! You can also modify an existing trait to better represent an enhanced expertise.
-
-  Also update the list of *NPCs*, *Locations*, and *Events* that may show up again in future adventures.
-]
-
-#keep_together[
-  === Playing as a Group
-
-  While _Bloodstained Fangs_ is designed primarily for *solo play*, its mechanics can be adapted for *group sessions*. Since the game is derived from *Freeform Universal*, there's nothing stopping you from playing it with others—if you really want to. Just be prepared to adapt things as needed.
-
-  There are two main ways to play in a group:
-]
-
-#keep_together[
-  ==== Without a Game Master (GM-less Mode)
-
-  - Each player controls their own *Protagonist* and asks questions to the *Oracle*, just like in solo play.
-  - The *Oracle's answers and world reactions* are interpreted by the player who asked the question.
-  - A *Facilitator* (either a rotating or fixed role) helps *moderate*, *remind players of rules*, and *settle disputes* if needed.
-  - Questions affecting the *whole group* should be discussed collectively.
-]
-
-#keep_together[
-  ==== With a Game Master
-
-  - The *GM does not roll dice*—only the players consult the Oracle.
-  - The GM interprets Oracle responses and presents the *world's reactions*.
-  - The GM also acts as a *facilitator*, guiding the flow of the story and helping resolve questions.
+  - Il *GM non tira i dadi*—solo i giocatori consultano l'Oracolo.
+  - Il GM interpreta le risposte dell'Oracolo e presenta le *reazioni del mondo*.
+  - Il GM agisce anche come *facilitatore*, guidando il flusso della storia e aiutando a risolvere le domande.
 ]

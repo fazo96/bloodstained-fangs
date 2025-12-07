@@ -5,9 +5,9 @@
 #pagebreak()
 == Personaggi
 
-In Bloodstained Fangs, siete *vampiri, licantropi, streghe*—creature aggrappate agli ultimi brandelli della vostra umanità mentre vivete nell'ombra. Potreste essere un *vampiro neonato* che sta ancora imparando a cacciare. Un *cacciatore di vampiri itinerante* con le mani sporche di sangue. Un *lupo mannaro maledetto* che combatte la bestia interiore. Forse siete un membro appena iniziato di un'organizzazione di Cacciatori di Vampiri, gettato in una guerra che capite a malapena. O un *agente segreto* appena trasferito alla Fringe Science Division, dove i casi non finiscono nei rapporti ufficiali.
+In Bloodstained Fangs, sarai un *vampiro, licantropo, strega*—creature aggrappate agli ultimi brandelli della loro umanità mentre vivono nell'ombra. Potresti essere un *vampiro neonato* che sta ancora imparando a cacciare. Un *cacciatore di vampiri itinerante* con le mani sporche di sangue. Un *lupo mannaro maledetto* che combatte la bestia interiore. Forse sei un nuovo membro di un'organizzazione di Cacciatori di Vampiri, gettato in una guerra che capisci a malapena. O un *agente segreto* appena trasferito alla Fringe Science Division, dove i casi non finiscono nei rapporti ufficiali.
 
-Ogni personaggio porta *il peso della propria condizione—o della propria conoscenza*. Poteri potenti. Nemici mortali. Alcuni troveranno potere, alleati, una pace fragile. Altri cadranno nell'oscurità, perderanno la loro umanità, diventeranno i mostri che temevano. Anche coloro che cacciano le creature della notte rischiano di diventare ciò che cacciano. *Nessuno è al sicuro dalla corruzione*.
+Ogni personaggio porta *il peso della propria condizione—o della propria conoscenza*. Poteri pericolosi. Nemici mortali. Alcuni troveranno potere, alleati, una pace fragile. Altri cadranno nell'oscurità, perderanno la loro umanità, diventeranno i mostri che temevano. Anche coloro che cacciano le creature della notte rischiano di diventare ciò che cacciano. *Nessuno è al sicuro dalla corruzione*.
 
 Il vostro viaggio sarà fatto di *mistero, orrore e sangue*, dove ogni passo vi trascina *più a fondo nel mondo sotterraneo*. Riuscirete a farvi strada verso la salvezza e la libertà? O la vostra storia finirà in urla e silenzio?
 
