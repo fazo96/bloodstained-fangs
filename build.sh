@@ -33,12 +33,13 @@ cp fonts/TAKOTA-7LRL.OTF "website/TAKOTA-7LRL.OTF"
 
 # Sync version number
 echo "Syncing version number..."
-VERSION=$(grep 'version:' content.typ | sed -n 's/.*version = "\(.*\)",/\1/p')
+VERSION=$(grep 'version =' content.typ | sed -n 's/.*version = "\(.*\)"/\1/p')
 if [ -n "$VERSION" ]; then
     echo "Found version: $VERSION"
     sed -i "s|<p class=\"version\">Version .*</p>|<p class=\"version\">Version $VERSION</p>|" website/index.html
 else
-    echo "Warning: Could not extract version from main.typ"
+    echo "Could not extract version from content.typ"
+    exit 1
 fi
 
 echo "Build complete! Website is ready in 'website/' directory."
