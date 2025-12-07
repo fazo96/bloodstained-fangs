@@ -37,7 +37,7 @@ echo "Syncing version number..."
 VERSION=$(grep 'version =' content.typ | sed -n 's/.*version = "\(.*\)"/\1/p')
 if [ -n "$VERSION" ]; then
     echo "Found version: $VERSION"
-    sed -i "s|<p class=\"version\">Version .*</p>|<p class=\"version\">Version $VERSION</p>|" website/index.html
+    sed -i "s|const version = \".*\"|const version = \"$VERSION\"|" website/index.html
 else
     echo "Could not extract version from content.typ"
     exit 1
