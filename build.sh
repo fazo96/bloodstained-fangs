@@ -3,10 +3,11 @@
 # Exit on error
 set -e
 
-echo "Building Bloodstained Fangs PDF..."
+echo "Building Bloodstained Fangs PDFs..."
 
 # Compile the Typst document
-typst compile --font-path ./fonts main.typ
+typst compile --format pdf --font-path ./fonts main.typ main.pdf
+typst compile --format pdf --font-path ./fonts main_pod.typ main_pod.pdf
 
 # Ensure website directory exists (it should, but good practice)
 mkdir -p website
@@ -28,7 +29,7 @@ cp fonts/TAKOTA-7LRL.OTF "website/TAKOTA-7LRL.OTF"
 
 # Sync version number
 echo "Syncing version number..."
-VERSION=$(grep 'version:' main.typ | sed -n 's/.*version: "\(.*\)",/\1/p')
+VERSION=$(grep 'version:' content.typ | sed -n 's/.*version = "\(.*\)",/\1/p')
 if [ -n "$VERSION" ]; then
     echo "Found version: $VERSION"
     sed -i "s|<p class=\"version\">Version .*</p>|<p class=\"version\">Version $VERSION</p>|" website/index.html

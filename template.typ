@@ -1,3 +1,4 @@
+#import "@preview/markly:0.3.0"
 // Bloodstained Fangs RPG Template
 // Custom Typst template for urban fantasy horror RPG
 
@@ -15,6 +16,14 @@
 // ============================================================================
 // HELPER FUNCTIONS
 // ============================================================================
+
+#let page_illutration(image_path, markly-context) = {
+  let image = read(image_path, encoding: none)
+  let margin = if markly-context.bleed > 0pt { 0.5in } else { 0pt }
+  page(header: none, footer: none, margin: (top: margin, bottom: margin, left: margin, right: margin))[
+    #markly.img-to-bleed(image, markly-context)
+  ]
+}
 
 // Helper to keep content together (e.g. heading + table)
 #let keep_together(body) = {
@@ -246,18 +255,16 @@
 // MAIN TEMPLATE FUNCTION
 // ============================================================================
 
+
 #let bloodstained-template(
-  title: "Bloodstained Fangs",
-  subtitle: "A Solo Urban Fantasy Horror RPG",
-  author: "Enrico Fasoli",
-  version: "1.0",
-  cover-image: none,
+  version,
+  markly-context,
   body,
 ) = {
   // Document settings
   set document(
-    title: title,
-    author: author,
+    title: "Bloodstained Fangs",
+    author: "Enrico Fasoli",
   )
 
   // Page setup
@@ -354,8 +361,8 @@
     margin: 0pt,
     header: none,
     footer: none,
-    background: if cover-image != none {
-      place(top + left, image(cover-image, width: 100%, height: 100%, fit: "cover"))
+    background: {
+      place(top + left, image("art/cover_art.webp", width: 100%, height: 100%, fit: "cover"))
       place(bottom + left, rect(width: 100%, height: 60%, fill: gradient.linear(rgb(0, 0, 0, 0), black, angle: 90deg)))
     },
   )[
@@ -375,7 +382,7 @@
           #text(size: 48pt, weight: "bold", fill: blood-red, font: "Takota")[BLOODSTAINED FANGS]
           #v(6pt)
           #text(size: 20pt, fill: parchment)[
-            #subtitle
+            A solo urban fantasy horror RPG
           ]
           #v(24pt)
           #block(width: 80%)[
