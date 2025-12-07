@@ -19,4 +19,4 @@
   registration-marks: false,
 )
 
-#bloodstained-fangs(markly-context)
+#bloodstained-fangs("eng", markly-context)

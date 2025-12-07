@@ -1,4 +1,4 @@
-#import "../../template.typ": table_d66
+#import "../../../template.typ": table_d66
 
 #pagebreak()
 == Adventure Tables

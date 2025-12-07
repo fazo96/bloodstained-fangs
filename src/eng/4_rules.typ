@@ -1,4 +1,4 @@
-#import "../template.typ": keep_together, rpg_table
+#import "../../template.typ": keep_together, rpg_table
 
 #pagebreak()
 #keep_together[

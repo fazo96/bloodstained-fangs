@@ -1,4 +1,4 @@
-#import "../../template.typ": keep_together, matrix_d6
+#import "../../../template.typ": keep_together, matrix_d6
 
 #pagebreak()
 === Inspiration Tables

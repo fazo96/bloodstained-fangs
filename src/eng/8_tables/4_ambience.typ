@@ -1,4 +1,4 @@
-#import "../../template.typ": keep_together, rpg_table, table_d66_double
+#import "../../../template.typ": keep_together, rpg_table, table_d66_double
 
 #pagebreak()
 === Ambience Tables

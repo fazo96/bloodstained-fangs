@@ -1,4 +1,4 @@
-#import "../template.typ": keep_together
+#import "../../template.typ": keep_together
 
 #pagebreak()
 #keep_together[
