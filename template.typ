@@ -357,52 +357,69 @@
   }
 
   // Cover page
-  page(
-    margin: 0pt,
-    header: none,
-    footer: none,
-    background: {
-      place(top + left, image("art/cover_art.webp", width: 100%, height: 100%, fit: "cover"))
-      place(bottom + left, rect(width: 100%, height: 60%, fill: gradient.linear(rgb(0, 0, 0, 0), black, angle: 90deg)))
-    },
-  )[
-    #place(
-      bottom + center,
-      dy: -1in,
-      [
-        #align(center)[
-          #place(center, dx: 2pt, dy: 2pt)[
-            #text(
-              fill: black,
-              size: 48pt,
-              weight: "bold",
-              font: "Takota",
-            )[BLOODSTAINED FANGS]
-          ]
-          #text(size: 48pt, weight: "bold", fill: blood-red, font: "Takota")[BLOODSTAINED FANGS]
-          #v(6pt)
-          #text(size: 20pt, fill: parchment)[
-            A solo urban fantasy horror RPG
-          ]
-          #v(24pt)
-          #block(width: 80%)[
-            #text(size: 14pt, fill: white.darken(20%))[
-              A rules-light solo tabletop RPG of vampires, werewolves and witches
-              stalking the night in the urban shadows
+  if markly-context.bleed == 0pt {
+    page(
+      margin: 0pt,
+      header: none,
+      footer: none,
+      background: {
+        place(top + left, image("art/cover_art.webp", width: 100%, height: 100%, fit: "cover"))
+        place(bottom + left, rect(width: 100%, height: 60%, fill: gradient.linear(
+          rgb(0, 0, 0, 0),
+          black,
+          angle: 90deg,
+        )))
+      },
+    )[
+      #place(
+        bottom + center,
+        dy: -1in,
+        [
+          #align(center)[
+            #place(center, dx: 2pt, dy: 2pt)[
+              #text(
+                fill: black,
+                size: 48pt,
+                weight: "bold",
+                font: "Takota",
+              )[BLOODSTAINED FANGS]
             ]
+            #text(size: 48pt, weight: "bold", fill: blood-red, font: "Takota")[BLOODSTAINED FANGS]
+            #v(6pt)
+            #text(size: 20pt, fill: parchment)[
+              A solo urban fantasy horror RPG
+            ]
+            #v(24pt)
+            #block(width: 80%)[
+              #text(size: 14pt, fill: white.darken(20%))[
+                A rules-light solo tabletop RPG of vampires, werewolves and witches
+                stalking the night in the urban shadows
+              ]
+            ]
+            #v(36pt)
+            #line(length: 30%, stroke: 2pt + blood-red)
+            #v(24pt)
+            #text(size: 12pt, fill: white.darken(40%))[
+              Version #version
+            ]
+            #place(bottom + right, dx: -0.5in, dy: -0.5in, image("art/by-sa.png", width: 15%))
+            #place(bottom + left, dx: 0.5in, dy: -0.5in, image("art/stamp.png", width: 15%))
           ]
-          #v(36pt)
-          #line(length: 30%, stroke: 2pt + blood-red)
-          #v(24pt)
-          #text(size: 12pt, fill: white.darken(40%))[
-            Version #version
-          ]
-          #place(bottom + right, dx: -0.5in, dy: -0.5in, image("art/by-sa.png", width: 15%))
-          #place(bottom + left, dx: 0.5in, dy: -0.5in, image("art/stamp.png", width: 15%))
+        ],
+      )
+    ]
+  } else {
+    page[
+      Placeholder for Cover
+      #align(center)[
+        #text(size: 48pt, weight: "bold", fill: blood-red, font: "Takota")[BLOODSTAINED FANGS]
+        #v(6pt)
+        #text(size: 20pt, fill: black)[
+          POD Version - Placeholder for Cover page
         ]
-      ],
-    )
-  ]
+      ]
+    ]
+  }
 
   // Table of contents
   page[
