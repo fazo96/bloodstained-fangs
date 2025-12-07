@@ -1,15 +1,20 @@
 #import "@preview/markly:0.3.0"
 #import "template.typ": bloodstained-template, page_illutration
 
-#let version = "Beta RC5"
+// This variable is the source of truth for the current version
+// of the book contents
+#let version = "Beta 6"
 
-#let bloodstained-fangs(language, markly-context) = {
+#let bloodstained-fangs(language, markly-context, subtitle, description, contents) = {
   let src = "src/" + language + "/"
   show: markly.page-setup.with(markly-context)
 
   show: bloodstained-template(
     version,
     markly-context,
+    subtitle,
+    description,
+    contents,
     [
       // Include all chapters in order
       #include src + "1_intro.typ"

@@ -6,7 +6,11 @@ set -e
 echo "Building Bloodstained Fangs PDFs..."
 
 # Compile the Typst document
+echo "- 1/3: English"
 typst compile --format pdf --font-path ./fonts main.typ main.pdf
+echo "- 2/3: Italian"
+typst compile --format pdf --font-path ./fonts main_ita.typ main_ita.pdf
+echo "- 3/3: English POD"
 typst compile --format pdf --font-path ./fonts main_pod.typ main_pod.pdf
 
 # Ensure website directory exists (it should, but good practice)

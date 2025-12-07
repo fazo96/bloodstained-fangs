@@ -234,19 +234,15 @@
 }
 
 // Info box for important game mechanics
-#let info-box(title: none, body) = {
+#let info-box(body) = {
   block(
-    fill: night-blue.lighten(90%),
-    stroke: 2pt + night-blue,
-    radius: 4pt,
+    fill: blood-red,
+    stroke: none,
+    radius: 0pt,
     inset: 12pt,
     width: 100%,
     [
-      #if title != none [
-        #text(weight: "bold", size: 11pt, fill: night-blue)[#title]
-        #v(6pt)
-      ]
-      #body
+      #text(fill: white)[#body]
     ],
   )
 }
@@ -259,6 +255,9 @@
 #let bloodstained-template(
   version,
   markly-context,
+  subtitle,
+  description,
+  contents,
   body,
 ) = {
   // Document settings
@@ -387,20 +386,19 @@
             #text(size: 48pt, weight: "bold", fill: blood-red, font: "Takota")[BLOODSTAINED FANGS]
             #v(6pt)
             #text(size: 20pt, fill: parchment)[
-              A solo urban fantasy horror RPG
+              #subtitle
             ]
             #v(24pt)
             #block(width: 80%)[
               #text(size: 14pt, fill: white.darken(20%))[
-                A rules-light solo tabletop RPG of vampires, werewolves and witches
-                stalking the night in the urban shadows
+                #description
               ]
             ]
             #v(36pt)
             #line(length: 30%, stroke: 2pt + blood-red)
             #v(24pt)
             #text(size: 12pt, fill: white.darken(40%))[
-              Version #version
+              #version
             ]
             #place(bottom + right, dx: -0.5in, dy: -0.5in, image("art/by-sa.png", width: 15%))
             #place(bottom + left, dx: 0.5in, dy: -0.5in, image("art/stamp.png", width: 15%))
@@ -426,7 +424,7 @@
     #outline(
       title: [
         #v(24pt)
-        #text(size: 28pt, weight: "bold", fill: blood-red)[Contents]
+        #text(size: 28pt, weight: "bold", fill: blood-red)[#contents]
         #v(12pt)
       ],
       indent: auto,

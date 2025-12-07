@@ -1,4 +1,6 @@
-#import "../../template.typ": info-box, keep_together, rpg_table
+#import "../../template.typ": keep_together, rpg_table
+
+// TODO: tradurre in italiano
 
 #pagebreak()
 #keep_together[
@@ -104,25 +106,17 @@
 
   Every supernatural being exists in constant war between their human soul and the beast clawing its way out. For Vampires, the beast is *the hunger*—an insatiable craving for blood. For Lycanthropes, it erupts with the full moon, tearing through flesh and reason alike. For Wizards, magic flows through them like poison, warping mind and soul with every spell.
 
-  *When creating a character, set their Humanity to 6*.
+  If you are a mortal with no supernatural powers, you do not track Humanity. Consider yourself lucky.
 
-  If appropriate for your character, feel free to begin your story with a different Humanity value in line with your character's background and history.
+  *Your Humanity starts at 6*. It drops by one every time you do something that violates human nature or harms the innocent. *The maximum Humanity is 9*.
 
-  *Either way, the maximum Humanity is 9*. Even regular human characters should track humanity—you never know when a dark turn will come.
-
-  #info-box[
-    Levi is a renowned assassin for hire. One day, hunting a target in an abandoned warehouse, he gets shot in the chest and faints—then wakes up healed minutes later. Magical powers long asleep in his body awaken to save his life, but that's not what he tells himself. He believes it an act of God, and decides to turn his life around. Levi begins his story with a Humanity of 3, to reflect his past as an assassin, and the Magical Regeneration tag due to his new powers.
-  ]
+  You can *tap into your supernatural powers*—an object, technique, or the darkness within—to re-roll your Chance dice and keep the highest result, assuming you have something that grants an advantage in this specific situation.
 ]
 
 #keep_together[
   ==== Being a Vampire
 
-  Vampires must drain the life force of mortals to survive (both Soul and Blood Vampires).
-
-  *For every night that passes without feeding, lose 1 Humanity*. The hunger gnaws at you, eroding what's left of your soul.
-
-  When you feed successfully, *gain 3 Humanity* (maximum 9). However, if you hurt your prey while feeding—or were interrupted mid-feast—*you gain only 1 Humanity*. The guilt lingers.
+  Vampires must drain the life force of mortals to survive (both Soul and Blood Vampires). *For every night that passes without feeding, lose 1 Humanity*. The hunger gnaws at you, eroding what's left of your soul. When you feed successfully, *gain 3 Humanity* (maximum 9). However, if you hurt your prey while feeding—or were interrupted mid-feast—*you gain only 1 Humanity*. The guilt lingers.
 ]
 
 #keep_together[
@@ -130,50 +124,24 @@
 
   Werewolves fight a losing battle against their beastly nature, shackled to the cycle of the Moon. At night, *when experiencing a tense situation or overwhelming emotion, you feel the Moon's call*. If there is a Full Moon, the transformation is inevitable—you *must* change and *lose 1 Humanity*. Otherwise, roll a d6 to see if you can hold on:
 
-  - If you roll a 1 or below your Humanity, you remain human. The Moon's call fades, at least for now.
-  - If you roll a 6 or equal to/above your Humanity, the Moon's power surges through you. You can either transform into the beast or resist the call. If you resist, *gain 1 Humanity* and stay human—envision the struggle, the memories and emotions that anchor you to your humanity. If you give in, *lose 1 Humanity* as fur and fangs take over.
+  - If you roll a 1 or below your Humanity (except 6), you remain human. The Moon's call fades, at least for now.
+  - If you roll a 6 or equal to/above your Humanity (except 1), the Moon's power surges through you. You can either transform into the beast or resist the call. If you resist, *gain 1 Humanity* and stay human—envision the struggle, the memories and emotions that anchor you to your humanity. If you give in, *lose 1 Humanity* as fur and fangs take over.
 
-  You can also transform into a Wolf if the fiction demands it, such as during a ritual. When you do, *lose 1 Humanity*.
-]
-
-#keep_together[
-  #info-box[
-    When rolling a d6 to see if you can hold on, if you roll a 1 then you always remain human. If you roll a 6 then you can always choose to transform into the beast.
-  ]
+  You can also transform into a Wolf voluntarily if the fiction demands it. When you do, *lose 1 Humanity*.
 
   *When transformed into a Wolf*, roll with advantage on all violent actions where you act aggressively. The beast is in control. However, roll with disadvantage when trying to avoid danger, violence, or calm down. You cannot tap into your supernatural powers in this state—you're already using them at full capacity.
 
   *When dawn breaks*, you transform back into human form. You can also revert if the fiction demands it or if someone manages to calm the beast within you.
 
-  In human form, you can *leverage the supernatural* to roll the Oracle with advantage, drawing on your regenerative powers and enhanced strength and speed.
+  *You can leverage the supernatural* in human form to roll with advantage, drawing on your regenerative powers and enhanced strength and speed.
 ]
 
 #keep_together[
-  ==== Leverage the Supernatural
+  ==== Leverage the supernatural
 
-  When you *tap into your supernatural powers*—a skill, gear, magical powers or the darkness within—to roll the Oracle with advantage, assuming you have something that grants an advantage in this specific situation.
-
-  Supernatural abilities often come with a price—each time you tap into your powers, you could lose Humanity.
-
-  *You don't always pay this price. Ask yourself:*
-
-  + Am I pushing beyond my limits, unleashing my full power?
-  + Am I acting from desperation, crossing lines I'd normally avoid?
-  + Is this a cursed, dark power fueled by my own soul?
-  + Does this make me less human, more monster?
-
-  *If yes to any*—you pay the toll. *If not*—you're just using the skills and gear you have and you don't pay the price.
-
-  *When leveraging the supernatural and paying the price:*
-
-  + *Envision* how the power gives you an advantage.
-  + *Reduce your Humanity* by one as something inside you withers.
-  + *Roll a d6*. If it's a 6 or higher than your Humanity, roll on the Mystic Backlash table—the power bites back. If it's a 1 or it's equal or lower than your Humanity, you maintain control—for now. Roll with advantage, riding the razor's edge between human and monster.
-
-  #info-box[
-    When rolling a 1, you keep control regardless of your Humanity. Similarly, when rolling a 6, you always lose control.
-  ]
-
+  + First, describe in the fiction what supernatural power, object, or technique you're using and how it gives you an advantage in this situation.
+  + Reduce your Humanity by one as you summon the power within.
+  + Roll a d6. If the result is *higher* than your Humanity, roll on the Mystic Backlash table below to see what horrific consequence befalls you. If the result is *equal to or lower* than your Humanity, you can do another Oracle roll with advantage to act, emboldened by your power.
 ]
 
 #keep_together[
@@ -204,7 +172,9 @@
     [Your expanding chest rips your clothes],
     [You suffer overwhelming pain due to strain],
   )
+]
 
+#keep_together[
   #rpg_table(
     columns: 5,
     [],
@@ -233,7 +203,6 @@
   )
 ]
 
-#pagebreak()
 #keep_together[
   ==== Losing all your humanity
 
@@ -325,12 +294,13 @@
   - A *meanwhile scene* takes place somewhere else, other than where the hero is. It cuts to villains or other plot-important characters.
 ]
 
-#pagebreak()
 #keep_together[
   === Open-Ended Question or Get Inspired
 
   To answer an Open-Ended question, roll 1d6 once on each of the Inspiration Tables (roll at least a verb and a noun, adjectives are optional).
+]
 
+#keep_together[
   === When the story ends
 
   At the end of the adventure you may add another trait to the character. It is better that this is related to how the story just ended and can be either a Skill, Gear, a new Frailty, or even a new Nemesis! You can also modify an existing trait to better represent an enhanced expertise.
@@ -344,7 +314,9 @@
   While _Bloodstained Fangs_ is designed primarily for *solo play*, its mechanics can be adapted for *group sessions*. Since the game is derived from *Freeform Universal*, there's nothing stopping you from playing it with others—if you really want to. Just be prepared to adapt things as needed.
 
   There are two main ways to play in a group:
+]
 
+#keep_together[
   ==== Without a Game Master (GM-less Mode)
 
   - Each player controls their own *Protagonist* and asks questions to the *Oracle*, just like in solo play.
