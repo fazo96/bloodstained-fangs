@@ -12,7 +12,7 @@
   - *Concept*: Fringe Science Bureau
   - *Skills*: Investigation, Guns
   - *Frailty*: Bureaucracy, Funding
-  - *Gear*: Federal Badge, Silenced Pistol
+  - *Gear*: Federal Database, Fringe Science Lab
   - *Goal*: Expose Underworld
   - *Motive*: The World Must Know
   - *Nemesis*: The Order
@@ -81,7 +81,7 @@ The Knights maintain a loose network of independent hunters—mostly vampire kil
   - *Concept*: United Mob
   - *Skills*: Intimidation, Extortion
   - *Frailty*: Hotheads
-  - *Gear*: Machine guns, Blood Money
+  - *Gear*: Automatic guns, Corrupt officials
   - *Goal*: Control Businesses
   - *Motive*: Greed
   - *Nemesis*: District Attorney

@@ -4,144 +4,144 @@
 
 #pagebreak()
 #keep_together[
-  == Setting Information
+  == Ambientazione
 
-  The world of Bloodstained Fangs is built on stories—small, intimate tales and sprawling conspiracies alike—but they all unfold in the shadows, after dark. In back alleys where streetlights flicker and die. In basement rooms thick with cigarette smoke. In the shadowed corners of strip clubs, the back booths of all-night diners, or the wreckage of someone's forgotten apartment.
+  Il mondo di Bloodstained Fangs è costruito su storie—sia piccoli racconti intimi che vaste cospirazioni—ma tutte si svolgono nell'ombra, dopo il tramonto. Nei vicoli dove i lampioni sfarfallano e si spengono. In stanze seminterrate dense di fumo di sigaretta. Negli angoli in ombra degli strip club, nei tavoli appartati delle tavole calde notturne o tra i resti dell'appartamento dimenticato di qualcuno.
 
-  === The City
+  === La Città
 
-  The City sprawls somewhere along the North American coast—vast, filthy, and lethal. Sirens wail through the night like wounded animals. Newspaper pages tumble through mist-choked streets. Fog and smoke catch the sickly glow of street lamps, painting everything in shades of amber and ash. The City never sleeps. Neon signs bleed color into the sky, drowning the stars beneath a shroud of smog and storm clouds. Pawn shops deal in cursed relics and cold steel. Bars and diners serve as hunting grounds for things that wear human faces.
+  La Città si estende da qualche parte lungo la costa nordamericana—vasta, sporca e letale. Le sirene ululano nella notte come animali feriti. Pagine di giornale rotolano attraverso strade soffocate dalla nebbia. Nebbia e fumo catturano il bagliore malato dei lampioni, dipingendo tutto in sfumature di ambra e cenere. La Città non dorme mai. Le insegne al neon sanguinano colore nel cielo, annegando le stelle sotto un sudario di smog e nubi temporalesche. I banchi dei pegni trattano reliquie maledette e acciaio freddo. Bar e tavole calde servono come terreni di caccia per cose che indossano volti umani.
 ]
 
 #keep_together[
-  === Districts
+  === Distretti
 
-  1. *The Docks*: The Hand's muscle moves shipments through rusted containers in the dead of night. Don't ask what's inside.
-  2. *The Beach*: Bonfires and bass lines. Late-night cocktails served on black sand. Music, pills, and willing prey. Soul Vampires thrive here.
-  3. *Downtown*: Glass towers and old money. Private security and cops who actually show up. The richest hunting grounds—whether you're after blood dolls or vault codes. Skyscrapers loom like tombstones, casting long shadows over the streets below.
-  4. *Slum*: Where junkies get rolled and dealers cut their product with rat poison. Dive bars glow red through grimy windows, casinos with velvet ropes and back-alley card games where the stakes are higher than money. Feral things stalk the alleys, looking for easy meals—drunks, vagrants, anyone who won't be missed.
-  5. *Misty Park Forest*: A nature preserve patrolled by rangers who know the woods too well. Home to wolves. Just wolves. Probably.
-  6. *Riverside*: The City's main artery. Trains disgorge commuters and cargo around the clock. Well-lit, well-patrolled. The underworld flows through but never lingers.
+  1. *Il Molo*: I muscoli della Mano spostano carichi attraverso container arrugginiti nel cuore della notte. Non chiedere cosa c'è dentro.
+  2. *Lungomare*: Falò e linee di basso. Cocktail a tarda notte serviti su sabbia nera. Musica, pillole e prede consenzienti. I Vampiri dell'Anima prosperano qui.
+  3. *Centro*: Torri di vetro e vecchi soldi. Sicurezza privata e poliziotti che si presentano davvero. I terreni di caccia più ricchi—che tu stia cercando bambole di sangue o codici di caveau. I grattacieli incombono come lapidi, proiettando lunghe ombre sulle strade sottostanti.
+  4. *Bassifondi*: Dove i tossici vengono derubati e gli spacciatori tagliano il loro prodotto con veleno per topi. Le bettole brillano di rosso attraverso finestre sporche, casinò con corde di velluto e partite a carte nei vicoli dove la posta in gioco è più alta del denaro. Cose feroci perseguitano i vicoli, in cerca di pasti facili—ubriachi, vagabondi, chiunque non mancherà a nessuno.
+  5. *Misty Park Forest*: Una riserva naturale pattugliata da ranger che conoscono i boschi troppo bene. Casa dei lupi. Solo lupi. Probabilmente.
+  6. *Riverside*: L'arteria principale della Città. I treni vomitano pendolari e merci 24 ore su 24. Ben illuminata, ben pattugliata. Il mondo sotterraneo scorre attraverso ma non si ferma mai.
 ]
 
 #keep_together[
-  === Important Points of Interest
+  === Punti di Interesse Importanti
 
-  - *The Cathedral*: Sanctuary for the Knights of the Cross and anyone desperate enough to seek shelter. Father Martin turns no one away. His faith is the real deal.
-  - *Jimmy's*: A pawn shop wedged under a bridge in the Slum. Jimmy keeps the good stuff under the counter—weapons for hunting things that don't die easy.
-  - *Shatter*: Downtown's most exclusive nightclub. If you're not on the list, you're not getting in. Inside, vampires of every stripe mingle freely. Blood dolls draped over velvet couches, necks already bruised.
-  - *Alder Medical Inc.*: Knock on the basement door in the back alley. A guy in scrubs will sell you blood bags, no questions asked. Bring cash. Lots of it.
-  - *Big House*: A sprawling wooden mansion deep in Misty Park Forest. Werewolf territory. Also home to runaways, outcasts, and anyone hiding from something worse than the law.
-  - *Police HQ*: Downtown. Where the City's hardest detectives work the cases that break minds. Some crack under the pressure. Some go rogue. Some disappear into the same darkness they were hunting.
-  - *La Bella Vista*: Historic restaurant with a killer view and impeccable service. In the back room, The Hand's upper echelon plays high-stakes poker with money that's never seen a bank.
-  - *The Public Library*: Ancient stone and older secrets. Rare tomes hidden in the restricted section. The head librarian runs an occult study group on Thursday nights.
+  - *La Cattedrale*: Santuario per i Cavalieri della Croce e chiunque sia abbastanza disperato da cercare rifugio. Padre Martin non respinge nessuno. La sua fede è autentica.
+  - *Da Jimmy*: Un banco dei pegni incastrato sotto un ponte nei Bassifondi. Jimmy tiene la roba buona sotto il bancone—armi per cacciare cose che non muoiono facilmente.
+  - *Shatter*: Il nightclub più esclusivo del Centro. Se non sei sulla lista, non entri. All'interno, vampiri di ogni risma si mescolano liberamente. Bambole di sangue drappeggiate su divani di velluto, colli già lividi.
+  - *Alder Medical Inc.*: Bussa alla porta del seminterrato nel vicolo sul retro. Un tizio in camice ti venderà sacche di sangue, senza fare domande. Porta contanti. Molti.
+  - *Big House* (La Grande Casa): Una vasta villa in legno nel profondo di Misty Park Forest. Territorio dei lupi mannari. Anche casa per fuggitivi, emarginati e chiunque si nasconda da qualcosa di peggio della legge.
+  - *QG Polizia*: Centro. Dove i detective più duri della Città lavorano ai casi che spezzano le menti. Alcuni crollano sotto la pressione. Alcuni diventano canaglia. Alcuni scompaiono nella stessa oscurità a cui davano la caccia.
+  - *La Bella Vista*: Ristorante storico con una vista mozzafiato e un servizio impeccabile. Nella stanza sul retro, l'alta dirigenza della Mano gioca a poker ad alta posta con denaro che non ha mai visto una banca.
+  - *La Biblioteca*: Pietra antica e segreti più antichi. Tomi rari nascosti nella sezione riservata. Il capo bibliotecario gestisce un gruppo di studio sull'occulto il giovedì sera.
 ]
 
 #keep_together[
-  ==== Your City
+  ==== La Tua Città
 
-  Name your city or roll on the tables below. You can also set your game in a real city you know well. Decide which districts house which locations, create your own districts and landmarks, or scrap the whole setup and build something new. Make it yours.
+  Dai un nome alla tua città o tira sulle tabelle qui sotto. Puoi anche ambientare il tuo gioco in una città reale che conosci bene. Decidi quali distretti ospitano quali luoghi, crea i tuoi distretti e punti di riferimento, o scarta l'intera configurazione e costruisci qualcosa di nuovo. Falla tua.
 
   #rpg_table(
     columns: (auto, 1fr),
     [D6],
-    [City Name Format],
+    [Formato Del Nome],
     [1],
-    [First Part + Second Part],
+    [Parte 1 + Parte 2],
     [2],
-    [Prefix + First Part + Second Part],
+    [Prefisso + Parte 1 + Parte 2],
     [3],
-    [Prefix + First Part + Second Part],
+    [Prefisso + Parte 1 + Parte 2],
     [4],
-    [First Part + Second Part + Suffix],
+    [Parte 1 + Parte 2 + Suffisso],
     [5],
-    [First Part + Second Part + Suffix],
+    [Parte 1 + Parte 2 + Suffisso],
     [6],
-    [First Part + Suffix],
+    [Parte 1 + Suffisso],
   )
 
   #rpg_table(
     columns: (auto, 1fr, 1fr, 1fr, 1fr),
     [D6],
-    [Prefix],
-    [First Part],
-    [Second Part],
-    [Suffix],
+    [Prefisso],
+    [Parte 1],
+    [Parte 2],
+    [Suffisso],
     [1],
-    [Upper],
-    [Black],
-    [river],
+    [Alto],
+    [Nero],
+    [fiume],
     [Canyon],
     [2],
-    [Lower],
-    [Red],
-    [falls],
-    [City],
+    [Basso],
+    [Rosso],
+    [cascate],
+    [Città],
     [3],
-    [New],
-    [Silver],
-    [town],
-    [Port],
+    [Nuovo],
+    [Argento],
+    [città],
+    [Porto],
     [4],
-    [Old],
-    [Dusk],
-    [ridge],
-    [Port],
+    [Vecchio],
+    [Crepuscolo],
+    [crinale],
+    [Porto],
     [5],
-    [Port],
-    [Night],
-    [moor],
+    [Porto],
+    [Notte],
+    [brughiera],
     [D.C.],
     [6],
-    [Cape],
-    [Moon],
+    [Capo],
+    [Luna],
     [ville],
-    [Valley],
+    [Valle],
   )
 ]
 
 #keep_together[
-  === Supernatural Entities
-  The City crawls with supernatural predators—some lone hunters, others bound by ancient hierarchies:
+  === Entità Soprannaturali
+  La Città brulica di predatori soprannaturali—alcuni cacciatori solitari, altri legati da antiche gerarchie:
 
-  - *Blood Vampires*: The classic nightmare. They feed on blood, draining it from puncture wounds in the neck. Sunlight burns them to ash, so they nest in darkness during the day. The old ones have walked the earth for centuries, wielding blood magic and bending mortal minds like clay. The young ones are feral—reckless, ravenous, and stupid with hunger. All of them are corpses wearing human skin: no pulse, pallid flesh, eyes like dirty glass. Hard to spot in the dark unless you know what to look for. Even then, they might just look strung out. They're supernaturally strong, and they only get stronger—and less human—with age. The eldest are living myths, so warped by time that mortals collapse at the sight of them. When a blood vampire feeds, it injects venom into the wound—a narcotic rush stronger than heroin. The punctures seal fast. The victim remembers nothing but the high, and they'll do anything to feel it again. That's how you get blood dolls: addicts who'll crawl through broken glass for another bite.
+  - *Vampiri di Sangue*: Il classico incubo. Si nutrono di sangue, drenandolo da morsi sull collo. La luce del sole li riduce in cenere, quindi si annidano nell'oscurità durante il giorno. Gli antichi camminano sulla terra da secoli, brandendo magia del sangue e piegando le menti mortali come argilla. I giovani sono feroci—spericolati e famelici. Tutti loro sono cadaveri che indossano pelle umana: nessun battito, carne pallida, occhi come vetro sporco. Difficili da individuare al buio a meno che tu non sappia cosa cercare. Anche allora, potrebbero sembrare solo degli sciagurati. Sono incredibilmente forzuti, e diventano solo più forti—e meno umani—con l'età. I più anziani sono miti viventi, dall'aspetto talmente distorto dal tempo che i mortali collassano alla loro vista. Quando un vampiro di sangue si nutre, inietta veleno nella ferita—una scarica narcotica più forte dell'eroina. I buchi si chiudono velocemente. La vittima non ricorda nulla se non lo sballo, e farà di tutto per sentirlo ancora. È così che ottieni le bambole di sangue: tossici che striscerebbero sui vetri rotti per un altro morso.
 ]
 
-- *Ghouls*: What happens when a vampire makes a mortal drink their blood. Ghouls gain a shadow of their master's power—strength, speed, resilience—but only as long as they keep drinking. Most are fanatically loyal. Some are just desperate.
-- *Soul Vampires*: They own every room they enter. Charismatic, magnetic, impossible to ignore. They feed on souls without meaning to, draining the life from everyone around them. Some try to stay on the move, never feeding from the same crowd long enough to leave them hollow. Others embrace it—becoming celebrities, politicians, cult leaders—surrounded by devotees who slowly lose their minds. It's a curse of isolation. Everyone they love goes mad. They don't fear the sun. Magic runs in their veins; some say their skin glimmers in direct sunlight if you have the sight to see it. The condition is hereditary, and they live for centuries. Purebloods are rare and terrifyingly powerful. The oldest bloodlines pull the strings of the global entertainment industry from the shadows.
-- *Werewolves*: A species parallel to humanity, touched by primal magic. They're in tune with nature and can transform into massive wolves. Mature werewolves retain their minds when the full moon calls, even control the change. Young ones lose themselves completely—mindless, savage, unstoppable. Purebloods can shift at will. Most have only a trace of wolf blood and need a ritual under the full moon to transform.
-- *Wizards and Witches*: Humans born with magic in their blood, inherited from their parents. It manifests differently in everyone—some get parlor tricks, others get apocalyptic power. Training can sharpen the gift, but magic is a double-edged blade. It warps the body, twists the mind, scars the soul.
-- *Faith*: True faith is a weapon. Blessed relics in the hands of true believers can burn through supernatural flesh like acid. It's one of the purest—and deadliest—forms of magic.
-- *Artifacts*: Power doesn't just live in flesh and bone. Objects can hold it too—sanctified by faith or forged by arcane hands. Some are locked away in vaults. Others are buried, waiting for someone foolish enough to dig them up.
+- *Ghoul*: Cosa succede quando un vampiro fa bere il proprio sangue a un mortale. I ghoul ottengono un'ombra del potere del loro padrone—forza, velocità, resilienza—ma solo finché continuano a bere. La maggior parte sono fanaticamente leali. Alcuni sono solo disperati.
+- *Vampiri dell'Anima*: Dominano ogni sguardo appena arrivano. Carismatici, magnetici, impossibili da ignorare. Si nutrono di anime senza volerlo, drenando la vita da chiunque li circondi. Alcuni cercano di rimanere in movimento, non nutrendosi mai dalla stessa folla abbastanza a lungo da lasciarli vuoti. Altri si lasciano trasportare—diventando celebrità, politici, leader di sette—circondati da devoti che perdono lentamente la testa. È una maledizione tremenda che li lascia profondamente soli: tutti quelli che stanno loro vicino impazziscono. Non temono il sole. La magia scorre nelle loro vene; alcuni dicono che la loro pelle luccichi alla luce diretta del sole se sei in grado di notarlo. La condizione è ereditaria, e vivono per secoli. I purosangue sono rari e terribilmente potenti. Le linee di sangue più antiche tirano i fili dell'industria globale dell'intrattenimento dalle ombre.
+- *Lupi Mannari*: Una specie parallela all'umanità, toccata dalla magia primordiale. Sono in sintonia con la natura e possono trasformarsi in enormi lupi. I lupi mannari maturi mantengono la lucidità quando la luna piena chiama, controllando perfettamente la trasformazione. I giovani si perdono completamente—senza mente, selvaggi, inarrestabili. I purosangue possono trasformarsi a volontà. La maggior parte ha solo una traccia di sangue di lupo e ha bisogno di un rituale sotto la luna piena per trasformarsi la prima volta.
+- *Maghi e Streghe*: Umani nati con la magia nel sangue, ereditata dai genitori. Si manifesta diversamente in ognuno—alcuni ottengono trucchi da salotto, altri ottengono potere apocalittico. L'addestramento può affinare il dono, ma la magia è una lama a doppio taglio. Deforma il corpo, contorce la mente, segna l'anima.
+- *Fede*: La vera fede è un'arma. Reliquie benedette nelle mani di veri credenti possono bruciare attraverso la carne soprannaturale come acido. È una delle forme di magia più pure—e più letali.
+- *Artefatti*: Il potere non vive solo nella carne e nelle ossa. Anche gli oggetti possono trattenerlo—santificati dalla fede o forgiati da mani arcane. Alcuni sono chiusi in caveau. Altri sono sepolti, in attesa di qualcuno abbastanza sciocco da dissotterrarli.
 
 #keep_together[
-  === Mortals
+  === Mortali
 
-  Mortal. That's what the underworld calls humans without magic or supernatural blood. They're the background noise—until they're not. Until someone they love vanishes. Until a hungry vampire catches them in the wrong alley at the wrong time. Until something impossible happens in broad daylight, sirens screaming, witnesses shrieking into the wet night air. Somewhere across town, a phone buzzes. An FSB agent reads the message and starts moving.
-]
-
-#keep_together[
-  Most people deny the supernatural even when it's staring them in the face. They'll call it fake, CGI, deepfakes. When camera phones first appeared, the underworld panicked. Now? Photographic evidence means nothing. Everyone assumes it's doctored.
+  Mortale. È così che il mondo sotterraneo chiama gli umani senza magia o sangue soprannaturale. Sono il rumore di fondo—finché non lo sono più. Finché qualcuno che amano svanisce. Finché un vampiro affamato non li cattura nel vicolo sbagliato al momento sbagliato. Finché non accade qualcosa di impossibile in pieno giorno, sirene che urlano, testimoni che strillano nell'aria umida della notte. Da qualche parte in città, un telefono vibra. Un agente dell'FSB legge il messaggio e inizia a muoversi.
 ]
 
 #keep_together[
-  === Money and Jobs
-
-  The night economy is vast: security work, armed escorts, bartending, sex work, contract killing. Mortals who brush against the underworld usually start with one of these gigs. So do the creatures who can pass for human.
+  La maggior parte delle persone nega il soprannaturale anche quando ce l'ha davanti agli occhi. Lo chiameranno falso, computer grafica, deepfake. Quando sono apparsi i primi cellulari con fotocamera, il mondo sotterraneo è andato nel panico. Ora? Le prove fotografiche non significano nulla. Tutti presumono che siano ritoccate.
 ]
 
 #keep_together[
-  === Magic
+  === Denaro e Lavori
 
-  Magic takes many forms, but most traditions are studied and codified by the Wizardry Union. Magic is innate—you're born with it or you're not. Some awaken early. Others bloom late, their power surfacing at any age and in wildly different strengths. Affinity can be trained and honed, but those who start strong have the highest ceiling—for glory and for ruin.
-
-  Magic always has a price. Energy is drawn from the caster's soul, the environment, enchanted artifacts, or natural forces—the Moon, Fire, Water, Earth, Wind. Darker arts like Blood Magic exact a heavier toll, warping the practitioner as much as the spell itself.
+  L'economia notturna è vasta: lavoro di sicurezza, scorte armate, barman, lavoro sessuale, omicidi su commissione. I mortali che sfiorano il mondo sotterraneo di solito iniziano con uno di questi lavoretti. Lo stesso vale per le creature che possono passare per umane.
 ]
 
 #keep_together[
-  === Folklore and Mythology
+  === Magia
 
-  Everyone knows monsters aren't real. Those videos online? Fake. CGI. Deepfakes. The vampire forums? Roleplay. The rituals in those old books? Fiction. Unexplained phenomena? Just gaps in our understanding. Parlor tricks and mass hysteria.
+  La magia assume molte forme, ma la maggior parte delle tradizioni sono studiate e codificate dall'Unione della Magia. La magia è innata—ci nasci o no. Alcuni si risvegliano presto. Altri sbocciano tardi, perchè il potere emerge a qualsiasi età e a livelli di intensità estremamente variabili. L'affinità può essere allenata, ma coloro che iniziano forti hanno il tetto più alto—per la gloria e per la rovina.
 
-  The initiated know better. Monsters and magic are real. But convincing a "normal" mortal? Nearly impossible. Ask yourself: would you believe it? What would it take to make you believe?
+  La magia ha sempre un prezzo. L'energia viene attinta dall'anima dell'incantatore, dall'ambiente, da artefatti incantati o forze naturali—la Luna, il Fuoco, l'Acqua, la Terra, il Vento. Le arti più oscure come la Magia del Sangue esigono un tributo più pesante, deformando il praticante tanto quanto l'incantesimo stesso.
+]
+
+#keep_together[
+  === Folklore e Mitologia
+
+  Tutti sanno che i mostri non sono reali. Quei video online? Falsi. Computer grafica. Deepfake. I forum sui vampiri? Giochi di ruolo. I rituali in quei vecchi libri? Finzione. Fenomeni inspiegabili? Solo lacune nella nostra comprensione. Trucchi da salotto e isteria di massa.
+
+  Gli iniziati sanno meglio. Mostri e magia sono reali. Ma convincere un mortale "normale"? Quasi impossibile. Chiediti: ci crederesti? Cosa ci vorrebbe per farti credere?
 ]

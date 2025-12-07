@@ -98,7 +98,7 @@
   - *Frailty*: Scared and unmotivated
   - *Gear*: 9mm Pistol, Police Badge
   - *Goal*: Avoid getting hurt
-  - *Motive*: Weakness
+  - *Motive*: Burnout
   - *Nemesis*: The Hand
 ]
 

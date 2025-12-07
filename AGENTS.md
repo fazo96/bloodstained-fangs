@@ -9,6 +9,10 @@ When translating:
 
 - Do not translate people or unique place names
 - Try to keep the same text length for pagination issues
+- The Hand becomes La Mano
+- Wizardry Union becomes Unione della Magia
+- Blood Vampire becomes Vampiro del Sangue
+- Soul Vampire becomes Vampiro dell'Anima
 
 Avoid translating these terms:
 

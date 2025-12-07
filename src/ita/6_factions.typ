@@ -4,111 +4,111 @@
 
 #pagebreak()
 #keep_together[
-  == Factions & Organizations
+  == Fazioni & Organizzazioni
 
-  The City's underworld is a web of competing organizations—each pulling strings, stepping on throats, and settling scores in the dark. Will you lead one of these factions, or just try to survive the crossfire?
+  Il sottobosco criminale della Città è una ragnatela di organizzazioni in competizione: ognuna tira i fili, schiaccia gole e regola i conti nell'oscurità. Guiderai una di queste fazioni o cercherai solo di sopravvivere al fuoco incrociato?
 ]
 
 #keep_together[
   === FSB
-  - *Concept*: Fringe Science Bureau
-  - *Skills*: Investigation, Guns
-  - *Frailty*: Bureaucracy, Funding
-  - *Gear*: Federal Badge, Silenced Pistol
-  - *Goal*: Expose Underworld
-  - *Motive*: The World Must Know
-  - *Nemesis*: The Order
+  - *Concetto*: Dipartimento Federale Fenomeni Paranormali
+  - *Abilità*: Investigazione, Armi da Fuoco
+  - *Fragilità*: Burocrazia, Fondi
+  - *Equipaggiamento*: Rete Federale, Laboratorio Scienze Paranormali
+  - *Obiettivo*: Svelare il Mondo Sotterraneo
+  - *Movente*: Il Mondo Deve Sapere
+  - *Nemesi*: L'Ordine
 ]
 
-On paper, the Fringe Science Bureau is a federal agency studying anomalies and unexplained phenomena—weird chemicals, strange readings, fringe cases. What most don't know is that buried within the bureaucracy is an Investigations division staffed by disillusioned, hard-bitten detectives who hunt supernatural creatures.
+Sulla carta, il Fringe Science Bureau è un'agenzia federale che studia anomalie e fenomeni inspiegabili: sostanze chimiche strane, letture bizzarre, casi limite. Ciò che la maggior parte delle persone non sa è che, sepolta nella burocrazia, c'è una divisione investigativa composta da detective disillusi e incalliti che danno la caccia alle creature soprannaturali.
 
-These agents know the truth. They've waded into the underworld and seen things that would shatter a normal person's mind. They're tough, relentless, and hungry to bring down the monsters. But more than anything, they want to prove they're not crazy. They want the world to see what they've seen.
+Questi agenti conoscono la verità. Si sono addentrati nel mondo sotterraneo e hanno visto cose che manderebbero in frantumi la mente di una persona normale. Sono duri, implacabili e affamati di abbattere i mostri. Ma più di ogni altra cosa, vogliono dimostrare di non essere pazzi. Vogliono che il mondo veda ciò che hanno visto loro.
 
 #pagebreak()
 #keep_together[
-  === The Order
-  - *Concept*: Ancient Secret Society
-  - *Skills*: Ancient Lore, Subterfuge
-  - *Frailty*: Few Members
-  - *Gear*: Caine's Stake, All-knowing Orb
-  - *Goal*: Preserve World Order
-  - *Motive*: Habit
-  - *Nemesis*: Knights of the Cross
+  === L'Ordine
+  - *Concetto*: Antica Società Segreta
+  - *Abilità*: Antiche Conoscenze, Sotterfugio
+  - *Fragilità*: Pochi Membri
+  - *Equipaggiamento*: Paletto di Caino, Sfera Onnisciente
+  - *Obiettivo*: Preservare l'Ordine Mondiale
+  - *Movente*: Abitudine
+  - *Nemesi*: Cavalieri della Croce
 ]
 
-The Order has few members. No one knows where they meet. They are antediluvian Blood Vampires and things that predate names.
-They remember Salem. The Crusades. Events that never made it into mortal history books. Some whisper that one of them is Caine himself—the first Blood Vampire, progenitor of all the rest.
+L'Ordine ha pochi membri. Nessuno sa dove si incontrano. Sono Vampiri di Sangue antidiluviani e cose che precedono i nomi.
+Ricordano Salem. Le Crociate. Eventi che non sono mai finiti nei libri di storia dei mortali. Alcuni sussurrano che uno di loro sia Caino stesso, il primo Vampiro di Sangue, progenitore di tutti gli altri.
 
-Their roots stretch back to prehistory. They don't meddle in the City's petty squabbles unless the established order is threatened—unless mortals are on the verge of learning the truth.
+Le loro radici risalgono alla preistoria. Non si immischiano nelle meschine scaramucce della Città a meno che l'ordine costituito non sia minacciato, a meno che i mortali non siano sul punto di scoprire la verità.
 
 #pagebreak()
 #keep_together[
-  === The Red Hood
-  - *Concept*: Secret Hacker Group
-  - *Skills*: Espionage, Hacking
-  - *Frailty*: Vampirism (Blood Vampire)
-  - *Gear*: Automated Security System, Surveillance Network
-  - *Goal*: Secrecy, Financial Independence
-  - *Motive*: Fear
-  - *Nemesis*: FSB
+  === Il Red Hood
+  - *Concetto*: Gruppo Hacker Segreto
+  - *Abilità*: Spionaggio, Hacking
+  - *Fragilità*: Vampirismo (Vampiro di Sangue)
+  - *Equipaggiamento*: Sistemi di Sicurezza Automatizzati, Rete di Sorveglianza
+  - *Obiettivo*: Segretezza, Indipendenza Finanziaria
+  - *Movente*: Paura
+  - *Nemesi*: FSB
 ]
 
-No one's heard of The Red Hood. That's the point. One of the world's most powerful hacking collectives, hidden in plain sight. Their base is somewhere in the City, buried inside a downtown skyscraper crawling with tech startups. Some of those startups are fronts. Behind the server racks and standing desks are nests of Blood Vampires who never see the sun—who live their entire unlives online. They feed on blood bags stolen through corrupt hospital staff and their own black-market blood banks.
+Nessuno ha mai sentito parlare del Red Hood. È proprio questo il punto. Uno dei collettivi di hacker più potenti al mondo, nascosto in piena vista. La loro base è da qualche parte nella città, sepolta all'interno di un grattacielo del centro brulicante di startup tecnologiche. Alcune di quelle startup sono coperture. Dietro i rack dei server e le scrivanie regolabili ci sono nidi di Vampiri di Sangue che non vedono mai il sole, che vivono le loro intere non-vite online. Si nutrono di sacche di sangue rubate tramite personale ospedaliero corrotto e mercato nero.
 
-They've built a scamming empire that controls the majority of online fraud worldwide. With that expertise and capital, they run a surveillance network that taps into hacked cameras and phones across the City. They monitor everything—tracking threats to their operations and keeping tabs on the people they depend on to stay fed and hidden.
+Hanno costruito un impero che controlla la maggior parte delle frodi online in tutto il mondo. Con quella competenza e quel capitale, gestiscono una rete di sorveglianza che attinge a telecamere e telefoni hackerati in tutta la città. Monitorano tutto: tracciano le minacce alle loro operazioni e tengono d'occhio le persone da cui dipendono per rimanere nutriti e nascosti.
 
-With near-unlimited funds, The Red Hood employs desperate mercenaries for untraceable wet work, ensuring secrecy and severe consequences for failure. Their intel is priceless. Escaping their surveillance? Nearly impossible. Making contact with them? Even harder.
+Con fondi quasi illimitati, Il Red Hood impiega mercenari disperati per i lavori sporchi, garantendo segretezza e gravi conseguenze per il fallimento. Le loro informazioni non hanno prezzo. Sfuggire alla loro sorveglianza? Quasi impossibile. Entrare in contatto con loro? Ancora più difficile.
 
 #pagebreak()
 #keep_together[
-  === The Knights of the Cross
-  - *Concept*: Religious Sect
-  - *Skills*: Ancient Lore, Faith Magic
-  - *Frailty*: Indoctrination
-  - *Gear*: Excalibur, The Godstaff
-  - *Goal*: Destroy Night Monsters
-  - *Motive*: Faith
-  - *Nemesis*: Night Monsters
+  === I Cavalieri della Croce
+  - *Concetto*: Setta Religiosa
+  - *Abilità*: Antiche Conoscenze, Magia della Fede
+  - *Fragilità*: Indottrinamento
+  - *Equipaggiamento*: Excalibur, Il Bastone Divino
+  - *Obiettivo*: Distruggere i Mostri della Notte
+  - *Movente*: Fede
+  - *Nemesi*: Mostri della Notte
 ]
 
-Centuries ago, the Knights of the Cross waged holy war on the night, slaughtering thousands of supernatural creatures in purges that burned across Europe. Now, the Knights are few. The underworld is growing. Vampirism festers in the guts of every major city, and technology shields the monsters instead of exposing them. The Vatican still funds the order, funneling resources to fight the Church's ancient enemies.
+Secoli fa, i Cavalieri della Croce condussero una guerra santa contro la notte, massacrando migliaia di creature soprannaturali in epurazioni che bruciarono in tutta Europa. Ora, i Cavalieri sono pochi. Il mondo sotterraneo sta crescendo. Il vampirismo marcisce nelle viscere di ogni grande città e la tecnologia protegge i mostri invece di esporli. Il Vaticano finanzia ancora l'ordine, incanalando risorse per combattere gli antichi nemici della Chiesa.
 
-Deepfakes and AI-generated images have made photographic evidence worthless. Mortals don't believe what they see anymore. It's the perfect breeding ground for monsters, and the Knights are stretched dangerously thin.
+I deepfake e le immagini generate dall'IA hanno reso le prove fotografiche prive di valore. I mortali non credono più a ciò che vedono. È il terreno fertile perfetto per i mostri e i Cavalieri sono pericolosamente a corto di personale.
 
-The Knights maintain a loose network of independent hunters—mostly vampire killers who don't share the faith but share the hatred. They don't kneel to God, but they'll take the Knights' weapons and intel when it suits them.
+I Cavalieri mantengono anche una rete informale di cacciatori indipendenti: per lo più assassini di vampiri che non condividono la fede ma condividono l'odio. Non si inginocchiano a Dio, ma prenderanno le armi e le informazioni dei Cavalieri quando farà loro comodo.
 
 #pagebreak()
 #keep_together[
-  === The Hand
-  - *Concept*: United Mob
-  - *Skills*: Intimidation, Extortion
-  - *Frailty*: Hotheads
-  - *Gear*: Machine guns, Blood Money
-  - *Goal*: Control Businesses
-  - *Motive*: Greed
-  - *Nemesis*: District Attorney
+  === La Mano
+  - *Concetto*: Mafia Unita
+  - *Abilità*: Intimidazione, Estorsione
+  - *Fragilità*: Teste Calde
+  - *Equipaggiamento*: Armi automatiche, Funzionari corrotti
+  - *Obiettivo*: Controllare le Attività
+  - *Movente*: Avidità
+  - *Nemesi*: Procuratore Distrettuale
 ]
 
-If you run in the City's nightlife, you'll cross paths with The Hand. They own the strip clubs, the pill-soaked dance floors, the spiked drinks, the high-stakes poker games in basement rooms. They offer vice. They take your money. Sometimes they take your life. You don't need fangs or claws to be a predator.
+Se frequenti la vita notturna della città, incrocerai la strada con La Mano. Possiedono gli strip club, le piste da ballo piene di pillole e drink corretti, le partite di poker ad alta posta nelle stanze seminterrate. Offrono il vizio. Prendono i tuoi soldi. A volte prendono la tua vita. Non hai bisogno di zanne o artigli per essere un predatore.
 
-Some of the bosses know about the supernatural. Others think it's bullshit. Either way, none of them tolerate anything that disrupts business.
+Alcuni dei boss sanno del soprannaturale. Altri pensano che siano stronzate. In ogni caso, nessuno di loro tollera nulla che disturbi gli affari.
 
 #pagebreak()
 #keep_together[
-  === Wizardry Union
-  - *Concept*: Wizardry Organization
-  - *Skills*: Magic, Ancient Lore
-  - *Frailty*: Inertia
-  - *Gear*: Magical Artifacts, Magic Sensing Talismans
-  - *Goal*: Develop Magic
-  - *Motive*: Power
-  - *Nemesis*: Rebel Mages
+  === Unione della Stregoneria
+  - *Concetto*: Organizzazione di Stregoneria
+  - *Abilità*: Magia, Antiche Conoscenze
+  - *Fragilità*: Inerzia
+  - *Equipaggiamento*: Artefatti Magici, Talismani Rileva-Magia
+  - *Obiettivo*: Sviluppare la Magia
+  - *Movente*: Potere
+  - *Nemesi*: Maghi Ribelli
 ]
 
-Sometimes a kid's magic awakens spontaneously. When it does, a nearby mage will sense it and offer them a new life in the hidden world. Some of these children grow into centuries-old archmages wielding apocalyptic power. Others never develop their gift. It just fades.
+A volte la magia di un ragazzino si risveglia e un mago nelle vicinanze lo percepisce e lo instrada sulla via della magia. Alcuni crescono fino a diventare arcimaghi secolari che brandiscono un potere apocalittico, altri non sviluppano mai il loro dono.
 
-Some awaken with so much raw power they can't control it. They become dangerous. Unstable. That's when the Union shows its teeth. They eliminate the threat. The Union tolerates no risk, and their laws are draconian—medieval, even by medieval standards.
+Alcuni si risvegliano con così tanto potere grezzo che non riescono a controllarlo. Diventano pericolosi. Instabili. È allora che l'Unione elimina la minaccia: non tollera rischi e le loro leggi sono draconiane persino per gli standard medievali.
 
-The Union involves itself in underworld affairs to secure powerful artifacts, advance magical research, and occasionally put down rogue monsters who've gone too far. They maintain a sprawling network of contacts: nomadic hunters, minor magical creatures, informants in every shadow.
+L'Unione si immischia negli affari del mondo sotterraneo per assicurarsi potenti artefatti, studiare magie potenti e a volte abbattere mostri che si sono spinti troppo oltre. Mantengono una vasta rete di contatti: cacciatori nomadi, creature magiche minori, informatori in ogni ombra.
 
-Not all mages bend the knee. Some reject the Union's bureaucracy, its control, its archaic laws. These rebels live as nomads, always on the run, or hidden so deep the Union can't find them. Sometimes they band together. When those groups get too big, the Union crushes them.
+Non tutti i maghi si piegano. Alcuni rifiutano la burocrazia dell'Unione, il suo controllo, le sue leggi arcaiche. Questi ribelli vivono come nomadi, sempre in fuga, o nascosti così in profondità che l'Unione non riesce a trovarli. A volte si uniscono. Quando quei gruppi diventano troppo grandi, l'Unione li schiaccia.

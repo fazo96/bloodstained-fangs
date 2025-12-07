@@ -37,7 +37,9 @@
 
       #include src + "5_setting.typ"
 
-      #page_illutration("art/wizard_run.webp", markly-context)
+      #if language == "eng" {
+        page_illutration("art/wizard_run.webp", markly-context)
+      }
       #page_illutration("art/mob_money.webp", markly-context)
 
       #include src + "6_factions.typ"
@@ -47,6 +49,9 @@
 
       #include src + "7_creatures.typ"
 
+      #if language == "ita" {
+        page_illutration("art/wizard_run.webp", markly-context)
+      }
       #page_illutration("art/police_car.webp", markly-context)
 
       #include src + "8_tables/1_adventure_seeds.typ"
