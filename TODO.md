@@ -1,0 +1,8 @@
+- [ ] Redo illustrations to improve them
+- [ ] Complete italian translation
+- [ ] Complete POD layout
+    - [ ] Prepare cover with Amazon KDP cover calculator
+    - [ ] Fix first pages (cover etc)
+    - [ ] Fix pictures not stretching beyond bleed
+- [ ] Prepare italian POD
+- [ ] Prepare english POD
