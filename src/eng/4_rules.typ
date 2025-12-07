@@ -137,6 +137,19 @@
 #keep_together[
   ==== Leverage the supernatural
 
+  If you have supernatural powers or objects, you can leverage them to roll with advantage if appropriate to the current situation at the cost of reducing your Humanity.
+
+  Note that *you do not always need to leverage the supernatural* to use skills or gear your character has. Ask yourself:
+
+  + Is my character *exerting themselves*, using their supernatural powers to their full capacity?
+  + Is my character *pushing past their hinibitions*, doing this out of desperation?
+  + Does the power or object being used *demand a toll from the human soul*?
+  + Does what I am doing make my character *less human and more monster*?
+
+  *If any of the above is true*, then you are leveraging the supernatural and paying a price. *If not*, then you are just using the skills or gear your character has and do not need to leverage the supernatural and pay a price to roll with advantage.
+
+  If you are leveraging the supernatural, then follow these steps:
+
   + First, describe in the fiction what supernatural power, object, or technique you're using and how it gives you an advantage in this situation.
   + Reduce your Humanity by one as you summon the power within.
   + Roll a d6. If the result is *higher* than your Humanity, roll on the Mystic Backlash table below to see what horrific consequence befalls you. If the result is *equal to or lower* than your Humanity, you can do another Oracle roll with advantage to act, emboldened by your power.
