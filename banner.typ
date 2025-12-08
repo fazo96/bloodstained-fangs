@@ -1,0 +1,40 @@
+#import "theme.typ": blood-red, dark-red, moon-silver, night-blue, parchment, shadow-gray
+
+#set page(
+  width: 960pt,
+  height: 400pt,
+  margin: 0pt,
+)
+
+#place(top + left, image("art/city.jpg", width: 100%, height: 100%, fit: "cover"))
+
+// Dark gradient at the bottom helping text legibility
+#place(bottom + left, rect(width: 100%, height: 100%, fill: gradient.linear(
+  rgb(0, 0, 0, 0),
+  rgb(0, 0, 0, 150),
+  rgb(0, 0, 0, 255),
+  angle: 90deg,
+)))
+
+#let text_dx = 4pt
+#let text_dy = 2in
+
+#align(center + horizon)[
+  #place(center, dx: text_dx + 2pt, dy: text_dy + 2pt)[
+    #text(
+      fill: black,
+      size: 110pt,
+      weight: "bold",
+      font: "Takota",
+    )[BLOODSTAINED FANGS]
+  ]
+  #place(center, dx: text_dx, dy: text_dy)[
+    #text(size: 110pt, weight: "bold", fill: blood-red, font: "Takota")[BLOODSTAINED FANGS]
+  ]
+
+  #v(94pt)
+
+  #text(size: 36pt, fill: parchment, font: "Montserrat")[
+    A solo urban fantasy horror RPG
+  ]
+]
