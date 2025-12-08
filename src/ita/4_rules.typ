@@ -1,4 +1,4 @@
-#import "../../template.typ": info-box, keep_together, rpg_table
+#import "../../utils.typ": info-box, keep_together, rpg_table
 
 // TODO: traduci in italiano
 

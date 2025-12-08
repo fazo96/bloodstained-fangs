@@ -1,4 +1,4 @@
-#import "../../template.typ": keep_together, matrix_d6, rpg_table
+#import "../../utils.typ": keep_together, matrix_d6, rpg_table
 
 // TODO: tradurre in italiano
 

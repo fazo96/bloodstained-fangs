@@ -1,11 +1,12 @@
 #import "@preview/markly:0.3.0"
-#import "template.typ": bloodstained-template, page_illutration
+#import "template.typ": bloodstained-template
+#import "utils.typ": page_illustration
 
 // This variable is the source of truth for the current version
 // of the book contents
 #let version = "Beta 6"
 
-#let bloodstained-fangs(language, markly-context, subtitle, description, contents) = {
+#let bloodstained-fangs(language, markly-context, subtitle, description, contents, pagetext) = {
   let src = "src/" + language + "/"
   show: markly.page-setup.with(markly-context)
 
@@ -15,44 +16,47 @@
     subtitle,
     description,
     contents,
+    pagetext,
     [
       // Include all chapters in order
       #include src + "1_intro.typ"
 
-      #page_illutration("art/vampire_computers.webp", markly-context)
-      #page_illutration("art/detective.webp", markly-context)
+      #page_illustration("art/vamp_girl_feeding.webp", markly-context)
+      #if markly-context.bleed == 0pt {
+        page_illustration("art/werewolf.webp", markly-context)
+      }
 
       #include src + "2_setting_intro.typ"
 
-      #page_illutration("art/soul_vampire.webp", markly-context)
+      #page_illustration("art/dance.webp", markly-context)
 
       #include src + "3_characters.typ"
 
-      #page_illutration("art/witch_patch.webp", markly-context)
-      #page_illutration("art/merc_alley.webp", markly-context)
+      #page_illustration("art/wounded_witch.webp", markly-context)
+      #page_illustration("art/alley_standoff.webp", markly-context)
 
       #include src + "4_rules.typ"
 
-      #page_illutration("art/man_roof.webp", markly-context)
+      #page_illustration("art/city.webp", markly-context)
 
       #include src + "5_setting.typ"
 
       #if language == "eng" {
-        page_illutration("art/wizard_run.webp", markly-context)
+        page_illustration("art/science.webp", markly-context)
       }
-      #page_illutration("art/mob_money.webp", markly-context)
+      #page_illustration("art/money.webp", markly-context)
 
       #include src + "6_factions.typ"
 
-      #page_illutration("art/ghost_hunter.webp", markly-context)
-      #page_illutration("art/knight_priest.webp", markly-context)
+      #page_illustration("art/delivery.webp", markly-context)
+      #page_illustration("art/priest_mercenary.webp", markly-context)
 
       #include src + "7_creatures.typ"
 
       #if language == "ita" {
-        page_illutration("art/wizard_run.webp", markly-context)
+        page_illustration("art/science.webp", markly-context)
       }
-      #page_illutration("art/police_car.webp", markly-context)
+      #page_illustration("art/cops.webp", markly-context)
 
       #include src + "8_tables/1_adventure_seeds.typ"
       #include src + "8_tables/2_inspiration.typ"

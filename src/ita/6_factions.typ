@@ -1,4 +1,4 @@
-#import "../../template.typ": keep_together
+#import "../../utils.typ": keep_together
 
 // TODO: tradurre in italiano
 

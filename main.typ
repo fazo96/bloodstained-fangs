@@ -25,4 +25,5 @@
   "A solo urban fantasy horror RPG",
   "A rules-light solo tabletop RPG of vampires, werewolves and witches stalking the night in the urban shadows",
   "Contents",
+  "Page",
 )

@@ -1,4 +1,4 @@
-#import "../../../template.typ": keep_together, matrix_d6, rpg_table, table_d66
+#import "../../../utils.typ": keep_together, matrix_d6, rpg_table, table_d66
 
 
 

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Exit on error
 set -e
@@ -6,12 +6,16 @@ set -e
 echo "Building Bloodstained Fangs PDFs..."
 
 # Compile the Typst document
-echo "- 1/3: English"
+echo "- 1/5: English"
 typst compile --format pdf --font-path ./fonts main.typ main.pdf
-echo "- 2/3: Italian"
+echo "- 2/5: Italian"
 typst compile --format pdf --font-path ./fonts main_ita.typ main_ita.pdf
-echo "- 3/3: English POD"
+echo "- 3/5: English POD"
 typst compile --format pdf --font-path ./fonts main_pod.typ main_pod.pdf
+echo "- 4/5: Italian POD"
+typst compile --format pdf --font-path ./fonts main_pod_ita.typ main_pod_ita.pdf
+echo "- 5/5: English Cover"
+typst compile --format pdf --font-path ./fonts cover.typ cover.pdf
 
 # Ensure website directory exists (it should, but good practice)
 mkdir -p website

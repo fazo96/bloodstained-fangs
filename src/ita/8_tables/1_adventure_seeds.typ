@@ -1,4 +1,4 @@
-#import "../../../template.typ": table_d66
+#import "../../../utils.typ": table_d66
 
 #pagebreak()
 == Tabelle Avventura

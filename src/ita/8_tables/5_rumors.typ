@@ -1,4 +1,4 @@
-#import "../../../template.typ": keep_together, rpg_table, table_d66
+#import "../../../utils.typ": keep_together, rpg_table, table_d66
 
 #pagebreak()
 === Voci
