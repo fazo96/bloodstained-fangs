@@ -23,40 +23,40 @@
 
       #page_illustration("art/vamp_girl_feeding.webp", markly-context)
       #if markly-context.bleed == 0pt {
-        page_illustration("art/werewolf.webp", markly-context)
+        page_illustration("art/werewolf.jpg", markly-context)
       }
 
       #include src + "2_setting_intro.typ"
 
-      #page_illustration("art/dance.webp", markly-context)
+      #page_illustration("art/dance.jpg", markly-context)
 
       #include src + "3_characters.typ"
 
-      #page_illustration("art/wounded_witch.webp", markly-context)
-      #page_illustration("art/alley_standoff.webp", markly-context)
+      #page_illustration("art/wounded_witch.jpg", markly-context)
+      #page_illustration("art/alley_standoff.jpg", markly-context)
 
       #include src + "4_rules.typ"
 
-      #page_illustration("art/city.webp", markly-context)
+      #page_illustration("art/city.jpg", markly-context)
 
       #include src + "5_setting.typ"
 
       #if language == "eng" {
-        page_illustration("art/science.webp", markly-context)
+        page_illustration("art/science.jpg", markly-context)
       }
       #page_illustration("art/money.webp", markly-context)
 
       #include src + "6_factions.typ"
 
-      #page_illustration("art/delivery.webp", markly-context)
-      #page_illustration("art/priest_mercenary.webp", markly-context)
+      #page_illustration("art/delivery.jpg", markly-context)
+      #page_illustration("art/priest_mercenary.jpg", markly-context)
 
       #include src + "7_creatures.typ"
 
       #if language == "ita" {
-        page_illustration("art/science.webp", markly-context)
+        page_illustration("art/science.jpg", markly-context)
       }
-      #page_illustration("art/cops.webp", markly-context)
+      #page_illustration("art/cops.jpg", markly-context)
 
       #include src + "8_tables/1_adventure_seeds.typ"
       #include src + "8_tables/2_inspiration.typ"
