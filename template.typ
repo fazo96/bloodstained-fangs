@@ -130,36 +130,30 @@
     )[
       #place(
         bottom + center,
-        dy: -1in,
+        dy: -0.5in,
         [
           #align(center)[
             #place(center, dx: 2pt, dy: 2pt)[
               #text(
                 fill: black,
-                size: 48pt,
+                size: 42pt,
                 weight: "bold",
                 font: "Takota",
               )[BLOODSTAINED FANGS]
             ]
-            #text(size: 48pt, weight: "bold", fill: blood-red, font: "Takota")[BLOODSTAINED FANGS]
-            #v(6pt)
-            #text(size: 20pt, fill: parchment)[
+            #text(size: 42pt, weight: "bold", fill: blood-red, font: "Takota")[BLOODSTAINED FANGS]
+            #v(-36pt)
+            #text(size: 16pt, fill: parchment)[
               #subtitle
             ]
-            #v(24pt)
-            #block(width: 80%)[
-              #text(size: 14pt, fill: white.darken(20%))[
-                #description
-              ]
-            ]
-            #v(36pt)
-            #line(length: 30%, stroke: 2pt + blood-red)
-            #v(24pt)
+            #v(0pt)
             #text(size: 12pt, fill: white.darken(40%))[
               #version
             ]
-            #place(bottom + right, dx: -0.5in, dy: -0.5in, image("art/by-sa.png", width: 15%))
-            #place(bottom + left, dx: 0.5in, dy: -0.5in, image("art/stamp.png", width: 15%))
+            #v(66pt)
+            #place(bottom + left, dx: 0.5in, dy: -0.25in, image("art/stamp.png", width: 15%))
+            #place(bottom + center, dy: -0.25in - 4pt, image("art/by-sa.png", width: 15%))
+            #place(bottom + right, dx: -0.5in, dy: -0.25in + 8pt, image("art/trippy_pizza.webp", width: 15%))
           ]
         ],
       )
