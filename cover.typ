@@ -35,7 +35,11 @@
       black,
       angle: 90deg,
     )))
+  })
+})
 
+#place(top + left, dx: cover-width + spine-width, {
+  block(width: cover-width - bleed, height: 100%, clip: true, {
     // Content
     place(bottom + center, dy: -1.5in, {
       align(center)[
@@ -60,8 +64,8 @@
 
     // Icons
     place(bottom + left, dx: 0.5in, dy: -0.5in, image("art/stamp.png", width: 15%))
-    place(bottom + center, dx: 0in, dy: -0.5in, image("art/by-sa.png", width: 15%))
-    place(bottom + right, dx: -0.5in, dy: -0.5in, image("art/trippy_pizza.webp", width: 15%))
+    place(bottom + center, dx: 0in, dy: -0.5in - 4pt, image("art/by-sa.png", width: 15%))
+    place(bottom + right, dx: -0.5in, dy: -0.5in + 8pt, image("art/trippy_pizza.webp", width: 15%))
   })
 })
 
@@ -80,13 +84,13 @@
 // })
 
 // --- Back Cover (Left) ---
-#place(top + left, dx: 0pt, {
+#place(top + left, dx: bleed, {
   block(width: cover-width, height: 100%, fill: black, {
     // Content
     pad(x: 0.75in, y: 1in, {
       align(center + horizon)[
         #block(width: 80%)[
-          #text(size: 14pt, fill: white.darken(20%), font: body-font)[
+          #text(size: 14pt, fill: parchment, font: body-font)[
             #description
           ]
         ]
@@ -95,11 +99,11 @@
         #line(length: 30%, stroke: 2pt + blood-red)
         #v(24pt)
 
-        #text(size: 12pt, fill: white.darken(40%), font: body-font)[
+        #text(size: 12pt, fill: parchment, font: body-font)[
           Download the PDF for free on the official website
         ]
 
-        #text(size: 12pt, fill: white.darken(40%), font: body-font)[
+        #text(size: 12pt, fill: blood-red, font: body-font)[
           bloodless-fangs.trippy.pizza
         ]
       ]
