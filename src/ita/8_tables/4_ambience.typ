@@ -1,7 +1,5 @@
 #import "../../../utils.typ": rpg_table, table_d66_double
 
-// TODO: tradurre in italiano
-
 #pagebreak()
 === Tabelle d'Ambiente
 

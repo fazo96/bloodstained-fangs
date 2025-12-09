@@ -1,7 +1,5 @@
 #import "../../utils.typ": keep_together
 
-// TODO: tradurre in italiano
-
 #pagebreak()
 #keep_together[
   == Fazioni & Organizzazioni

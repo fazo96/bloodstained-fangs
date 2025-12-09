@@ -1,7 +1,5 @@
 #import "../../utils.typ": keep_together, matrix_d6, rpg_table
 
-// TODO: tradurre in italiano
-
 #pagebreak()
 == Personaggi
 
@@ -44,15 +42,15 @@ Questi *tratti* sono descritti da *tag*, parole o frasi descrittive che possono 
       [Licantropo Spericolato],
       [Lupo Mannaro Alpha],
       [Motociclista Tosto],
-      [Topo di Biblioteca Occulta],
+      [Nerd dell'Occulto],
       [Storico Preoccupato],
       [Detective Determinato],
       [Federale Sotto Copertura],
       [Mago Nomade],
-      [Tossicodipendente Disperato],
+      [Tossico Disperato],
       [Leader della Congrega],
       [Mago Antico],
-      [Abitante della Notte],
+      [Festaiolo Incallito],
       [Acchiappafantasmi Amatoriale],
       [Esorcista Vaticano],
       [Hobbista Eccentrico],
