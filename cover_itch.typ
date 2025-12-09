@@ -4,9 +4,8 @@
   width: 630pt,
   height: 500pt,
   margin: 0pt,
+  background: image("art/cover_art_itch.webp"),
 )
-
-#place(top + left, image("art/city.jpg", width: 100%, height: 100%, fit: "cover"))
 
 // Dark gradient at the bottom helping text legibility
 #place(bottom + left, rect(width: 100%, height: 100%, fill: gradient.linear(
@@ -17,19 +16,19 @@
 )))
 
 #let text_dx = 4pt
-#let text_dy = 130pt
+#let text_dy = 160pt
 
 #align(center + horizon)[
   #place(center, dx: text_dx + 2pt, dy: text_dy + 2pt)[
     #text(
       fill: black,
-      size: 72pt,
+      size: 56pt,
       weight: "bold",
       font: "Takota",
     )[BLOODSTAINED FANGS]
   ]
   #place(center, dx: text_dx, dy: text_dy)[
-    #text(size: 72pt, weight: "bold", fill: blood-red, font: "Takota")[BLOODSTAINED FANGS]
+    #text(size: 56pt, weight: "bold", fill: blood-red, font: "Takota")[BLOODSTAINED FANGS]
   ]
 
   #place(center, dx: 0pt, dy: text_dy + 60pt)[
