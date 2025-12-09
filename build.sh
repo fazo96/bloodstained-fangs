@@ -19,8 +19,11 @@ typst compile --format pdf --font-path ./fonts cover_eng.typ cover_eng.pdf
 echo "- 6/6: Italian Cover"
 typst compile --format pdf --font-path ./fonts cover_ita.typ cover_ita.pdf
 
-echo "Building banner..."
+echo "Building itch.io banner..."
 typst compile --format png --ppi 144 --font-path ./fonts banner.typ banner.png
+
+echo "Building itch.io cover..."
+typst compile --format png --ppi 144 --font-path ./fonts cover_itch.typ cover_itch.png
 
 # Ensure website directory exists (it should, but good practice)
 mkdir -p website

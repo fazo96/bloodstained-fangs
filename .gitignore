@@ -3,6 +3,7 @@ website/*.png
 website/*.webp
 website/*.OTF
 banner.png
+cover_itch.png
 
 # Local Netlify folder
 .netlify
