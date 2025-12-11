@@ -7,17 +7,17 @@ echo "Building Bloodstained Fangs PDFs..."
 
 # Compile the Typst document
 echo "- 1/6: English"
-typst compile --format pdf --font-path ./fonts main.typ main.pdf
+typst compile --format pdf --font-path ./fonts main.typ "Bloodstained Fangs.pdf"
 echo "- 2/6: Italian"
-typst compile --format pdf --font-path ./fonts main_ita.typ main_ita.pdf
+typst compile --format pdf --font-path ./fonts main_ita.typ "Bloodstained Fangs ITA.pdf"
 echo "- 3/6: English POD"
-typst compile --format pdf --font-path ./fonts main_pod.typ main_pod.pdf
+typst compile --format pdf --font-path ./fonts main_pod.typ "Bloodstained Fangs POD.pdf"
 echo "- 4/6: Italian POD"
-typst compile --format pdf --font-path ./fonts main_pod_ita.typ main_pod_ita.pdf
+typst compile --format pdf --font-path ./fonts main_pod_ita.typ "Bloodstained Fangs POD ITA.pdf"
 echo "- 5/6: English Cover"
-typst compile --format pdf --font-path ./fonts cover_eng.typ cover_eng.pdf
+typst compile --format pdf --font-path ./fonts cover_eng.typ "Bloodstained Fangs POD Cover.pdf"
 echo "- 6/6: Italian Cover"
-typst compile --format pdf --font-path ./fonts cover_ita.typ cover_ita.pdf
+typst compile --format pdf --font-path ./fonts cover_ita.typ "Bloodstained Fangs POD Cover ITA.pdf"
 
 echo "Building itch.io banner..."
 typst compile --format png --ppi 144 --font-path ./fonts banner.typ banner.png
@@ -27,11 +27,6 @@ typst compile --format png --ppi 144 --font-path ./fonts cover_itch.typ cover_it
 
 # Ensure website directory exists (it should, but good practice)
 mkdir -p website
-
-# Copy the PDF to the website folder with the correct name
-echo "Copying PDFs to website folder..."
-cp main.pdf "website/Bloodstained Fangs.pdf"
-cp main_ita.pdf "website/Bloodstained Fangs ITA.pdf"
 
 # Copy images to website folder
 echo "Copying over images to website folder..."
@@ -43,16 +38,5 @@ cp art/trippy_pizza.webp "website/trippy_pizza.webp"
 # Copy font to website folder
 echo "Copying font to website folder..."
 cp fonts/TAKOTA-7LRL.OTF "website/TAKOTA-7LRL.OTF"
-
-# Sync version number
-echo "Syncing version number..."
-VERSION=$(grep 'version =' content.typ | sed -n 's/.*version = "\(.*\)"/\1/p')
-if [ -n "$VERSION" ]; then
-    echo "Found version: $VERSION"
-    sed -i "s|const version = \".*\"|const version = \"$VERSION\"|" website/index.html
-else
-    echo "Could not extract version from content.typ"
-    exit 1
-fi
 
 echo "Build complete! Website is ready in 'website/' directory."
