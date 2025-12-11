@@ -1,8 +1,13 @@
-- [ ] Redo illustrations to improve them
-- [ ] Complete italian translation
-- [ ] Complete POD layout
-    - [ ] Prepare cover with Amazon KDP cover calculator
-    - [ ] Fix first pages (cover etc)
-    - [ ] Fix pictures not stretching beyond bleed
+- [x] Redo illustrations to improve them
+- [x] Complete italian translation
+- [x] Complete POD layout
+    - [x] Prepare cover with Amazon KDP cover calculator
+    - [x] Fix first pages (cover etc)
+    - [x] Fix pictures not stretching beyond bleed
+- [ ] page 104 italian issues with some terms untranslated
+- [ ] fix generator of cities in italian
+- [ ] rework inspiration tables from elegy
+- [ ] give better attribution
+- [ ] AI disclosure with prompt in appendix?
 - [ ] Prepare italian POD
 - [ ] Prepare english POD
