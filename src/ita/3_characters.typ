@@ -70,7 +70,7 @@ Questi *tratti* sono descritti da *tag*, parole o frasi descrittive che possono 
       [Fuggitivo Perseguitato],
       [Leader della Congrega],
       [Acchiappafantasmi Impavido],
-      [Fed. Sotto Copertura],
+      [Federale Sotto Copertura],
       [Potente Politico],
     ),
   )
@@ -81,7 +81,7 @@ Questi *tratti* sono descritti da *tag*, parole o frasi descrittive che possono 
 
   #matrix_d6(
     (
-      [Antiche Conoscenze],
+      [Conoscenze Ancestrali],
       [Combattimento di Strada],
       [Armi da Fuoco],
       [Magia Lunare],
@@ -125,7 +125,7 @@ Questi *tratti* sono descritti da *tag*, parole o frasi descrittive che possono 
 
   #matrix_d6(
     (
-      [Fede Forte],
+      [Vera Fede],
       [Paura della violenza],
       [Credulone],
       [Moglie/Marito],

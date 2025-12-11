@@ -81,7 +81,7 @@ These *traits* are described by *tags*, descriptive words or phrases that can id
 
   #matrix_d6(
     (
-      [Ancient Lore],
+      [Ancestral Lore],
       [Street Fight],
       [Guns],
       [Moon Magic],
@@ -125,7 +125,7 @@ These *traits* are described by *tags*, descriptive words or phrases that can id
 
   #matrix_d6(
     (
-      [Strong Faith],
+      [True Faith],
       [Scared of violence],
       [Guillible],
       [Wife/Husband],

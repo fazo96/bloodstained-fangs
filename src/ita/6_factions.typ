@@ -61,7 +61,7 @@ Con fondi quasi illimitati, Il Red Hood impiega mercenari disperati per i lavori
 #keep_together[
   === I Cavalieri della Croce
   - *Concetto*: Setta Religiosa
-  - *Abilità*: Antiche Conoscenze, Magia della Fede
+  - *Abilità*: Conoscenze Ancestrali, Magia della Fede
   - *Fragilità*: Indottrinamento
   - *Equipaggiamento*: Excalibur, Il Bastone Divino
   - *Obiettivo*: Distruggere i Mostri della Notte
@@ -95,7 +95,7 @@ Alcuni dei boss sanno del soprannaturale. Altri pensano che siano stronzate. In 
 #keep_together[
   === Unione della Stregoneria
   - *Concetto*: Organizzazione di Stregoneria
-  - *Abilità*: Magia, Antiche Conoscenze
+  - *Abilità*: Magia, Conoscenze Ancestrali
   - *Fragilità*: Inerzia
   - *Equipaggiamento*: Artefatti Magici, Talismani Rileva-Magia
   - *Obiettivo*: Sviluppare la Magia

@@ -26,7 +26,7 @@ These agents know the truth. They've waded into the underworld and seen things t
 #keep_together[
   === The Order
   - *Concept*: Ancient Secret Society
-  - *Skills*: Ancient Lore, Subterfuge
+  - *Skills*: Ancestral Lore, Subterfuge
   - *Frailty*: Few Members
   - *Gear*: Caine's Stake, All-knowing Orb
   - *Goal*: Preserve World Order
@@ -61,7 +61,7 @@ With near-unlimited funds, The Red Hood employs desperate mercenaries for untrac
 #keep_together[
   === The Knights of the Cross
   - *Concept*: Religious Sect
-  - *Skills*: Ancient Lore, Faith Magic
+  - *Skills*: Ancestral Lore, Faith Magic
   - *Frailty*: Indoctrination
   - *Gear*: Excalibur, The Godstaff
   - *Goal*: Destroy Night Monsters

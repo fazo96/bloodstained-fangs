@@ -4,10 +4,10 @@
     - [x] Prepare cover with Amazon KDP cover calculator
     - [x] Fix first pages (cover etc)
     - [x] Fix pictures not stretching beyond bleed
-- [ ] page 104 italian issues with some terms untranslated
-- [ ] fix generator of cities in italian
+- [x] page 104 italian issues with some terms untranslated
+- [x] fix generator of cities in italian
 - [ ] rework inspiration tables from elegy
-- [ ] give better attribution
+- [x] give better attribution
 - [ ] AI disclosure with prompt in appendix?
 - [ ] Prepare italian POD
 - [ ] Prepare english POD

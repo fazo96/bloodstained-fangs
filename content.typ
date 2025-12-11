@@ -4,7 +4,7 @@
 
 // This variable is the source of truth for the current version
 // of the book contents
-#let version = "Beta 7"
+#let version = "Beta 8"
 
 #let bloodstained-fangs(language, markly-context, subtitle, description, contents, pagetext) = {
   let src = "src/" + language + "/"
@@ -19,6 +19,11 @@
     pagetext,
     [
       // Include all chapters in order
+      // Note that some illustrations are shown conditionally because
+      // different languages or POD vs Digital can skew the page count
+      // so to have the illustration on the left of a new chapter, sometimes
+      // we need to add or remove illustrations.
+
       #include src + "1_intro.typ"
 
       #page_illustration("art/vamp_girl_feeding.webp", markly-context)
@@ -41,9 +46,7 @@
 
       #include src + "5_setting.typ"
 
-      #if language == "eng" {
-        page_illustration("art/science.jpg", markly-context)
-      }
+      #page_illustration("art/science.jpg", markly-context)
       #page_illustration("art/money.webp", markly-context)
 
       #include src + "6_factions.typ"
@@ -54,7 +57,7 @@
       #include src + "7_creatures.typ"
 
       #if language == "ita" {
-        page_illustration("art/science.jpg", markly-context)
+        page_illustration("art/crimson.jpg", markly-context)
       }
       #page_illustration("art/cops.jpg", markly-context)
 
