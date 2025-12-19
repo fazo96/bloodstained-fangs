@@ -22,8 +22,8 @@
 #bloodstained-fangs(
   "ita",
   markly-context,
-  "Un RPG Horror Urban Fantasy in Solitario",
-  "Un RPG solitario di vampiri, licantropi e streghe tra le ombre della notte",
+  "Un GDR Horror Urban Fantasy in Solitario",
+  "Un GDR solitario di vampiri, licantropi e streghe tra le ombre della notte",
   "Contenuti",
   "Pagina",
 )

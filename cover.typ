@@ -104,7 +104,7 @@
           ]
 
           #text(size: 12pt, fill: blood-red, font: body-font)[
-            bloodless-fangs.trippy.pizza
+            bloodstained-fangs.trippy.pizza
           ]
         ]
       })

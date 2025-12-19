@@ -4,7 +4,7 @@
 
 // This variable is the source of truth for the current version
 // of the book contents
-#let version = "Beta 8"
+#let version = "1.0"
 
 #let bloodstained-fangs(language, markly-context, subtitle, description, contents, pagetext) = {
   let src = "src/" + language + "/"

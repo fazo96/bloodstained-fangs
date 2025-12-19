@@ -44,6 +44,14 @@
                         target="_blank" rel="noopener noreferrer">
                         Scarica Gratis
                     </a>
+                    <a href="https://www.amazon.com/Bloodstained-Fangs-Enrico-Fasoli/dp/B0G8139ZF9" class="download-btn"
+                        id="buy-en" target="_blank" rel="noopener noreferrer">
+                        Buy Print
+                    </a>
+                    <a href="https://www.amazon.it/Bloodstained-Fangs-Enrico-Fasoli/dp/B0G814DYQH"
+                        class="download-btn hidden" id="buy-it" target="_blank" rel="noopener noreferrer">
+                        Acquista Stampato
+                    </a>
                 </div>
                 <div class="links-container">
                     <a href="https://fazo96.substack.com" class="link" target="_blank" rel="noopener noreferrer"
@@ -74,7 +82,7 @@
             },
             it: {
                 subtitle: "Un GDR Horror Urban Fantasy in Solitario",
-                description: "Un RPG solitario di vampiri, licantropi e streghe tra le ombre della notte.",
+                description: "Un GDR solitario di vampiri, licantropi e streghe tra le ombre della notte.",
                 follow_updates: "Segui gli Aggiornamenti"
             }
         };
@@ -96,13 +104,19 @@
             // Update buttons
             const btnEn = document.getElementById('btn-en');
             const btnIt = document.getElementById('btn-it');
+            const buyEn = document.getElementById('buy-en');
+            const buyIt = document.getElementById('buy-it');
 
             if (lang === 'it') {
                 btnEn.classList.add('hidden');
                 btnIt.classList.remove('hidden');
+                buyEn.classList.add('hidden');
+                buyIt.classList.remove('hidden');
             } else {
                 btnEn.classList.remove('hidden');
                 btnIt.classList.add('hidden');
+                buyEn.classList.remove('hidden');
+                buyIt.classList.add('hidden');
             }
         }
 

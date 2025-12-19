@@ -15,6 +15,7 @@ In _Bloodstained Fangs_ i Personaggi Non Giocanti (PNG), i Nemici, le Organizzaz
 
 Il tuo Protagonista è descritto da alcuni tratti fissi:
 
+#keep_together[
 - *Nome*: Il nome dovrebbe essere iconico e coerente con il tono e l'ambientazione della storia.
 - *Concetto*: Una descrizione concisa della professione, del background e delle abilità del personaggio. I migliori sono accoppiamenti aggettivo-nome, come _"Contrabbandiere Avventuroso"_ o _"Bambino Prodigio"_.
 - *Abilità* (x2): Capacità non necessariamente specifiche del personaggio ma non caratteristiche comuni a tutti. _"Intelligente"_ non è un'abilità, _"Sussurratore di Motori"_ lo è.
@@ -28,6 +29,7 @@ Il tuo Protagonista è descritto da alcuni tratti fissi:
 Questi *tratti* sono descritti da *tag*, parole o frasi descrittive che possono identificare qualsiasi cosa nel mondo di gioco. Anche i *dettagli* dell'ambiente in cui si muove l'azione e le *condizioni* (fisiche o mentali) dei personaggi sono tag.
 
 *Sono rappresentazioni qualitative. Non sono misure quantitative.*
+]
 
 #keep_together[
   == Tratti del Personaggio
