@@ -88,7 +88,7 @@ La notte pulsa di vita ed eccessi—quali scene si svolgono nell'oscurità e nel
     [Il barista interrompe fermamente un ubriaco.],
     [Gambe muscolose proiettano un'ombra curva e danzante.],
     [Coppia fissa in silenzio, le braccia di lui attorno alla schiena di lei.],
-    [FOdore di erba arriva da qualche parte.],
+    [Odore di erba arriva da qualche parte.],
     [Che schifo, è pieno di vecchi, dice un adolescente.],
     [Ragazza si gira dal bar, sorride, accoglie il bacio di uno sconosciuto.],
     [Uomo farnetica verso una donna palesemente a disagio.],
