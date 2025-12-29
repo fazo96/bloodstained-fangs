@@ -25,6 +25,9 @@ typst compile --format png --ppi 144 --font-path ./fonts banner.typ banner.png
 echo "Building itch.io cover..."
 typst compile --format png --ppi 144 --font-path ./fonts cover_itch.typ cover_itch.png
 
+echo "Building micro PDF..."
+typst compile --format pdf --font-path ./fonts micro.typ "Bloodstained Fangs Micro.pdf"
+
 # Ensure website directory exists (it should, but good practice)
 mkdir -p website
 

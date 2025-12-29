@@ -17,6 +17,8 @@ elif [ $1 == "banner" ]; then
   typst watch --format png --ppi 144 --font-path ./fonts banner.typ banner.png
 elif [ $1 == "cover_itch" ]; then
   typst watch --format png --ppi 144 --font-path ./fonts cover_itch.typ cover_itch.png
+elif [ $1 == "micro" ]; then
+  typst watch --format pdf --font-path ./fonts micro.typ micro.pdf
 else
   typst watch --format pdf --font-path ./fonts main.typ main.pdf
 fi
